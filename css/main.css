@@ -1,0 +1,177 @@
+@import url(themes.css);
+@import url(cards.css);
+
+body {
+    color: var(--text-color);
+    background-color: var(--background);
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent); 
+  }
+
+h1 , h2 , h3  {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 { font-size: 50px; }
+
+#splash { font-size: 24px; }
+
+p { font-size: 20px; }
+
+h1 > span {
+    font-family: "Montserrat", sans-serif;
+    color: var(--accent);
+}
+
+.center-container {
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+a, a:visited {
+    color: var(--accent);
+    text-decoration: none;
+    transition: 0.4s all;
+}
+
+a:hover {
+    text-decoration: underline;
+    filter: brightness(80%);
+}
+
+button {
+    color: var(--background);
+    background-color: var(--accent);
+    padding: 8px 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;   
+    transition: 0.4s all;
+}
+
+.play { font-family: "Montserrat"; font-weight: 700; }
+
+button:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.links {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links .left,
+.links .right {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.links a {
+    margin-right: 25px;
+    color: white;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    filter: brightness(100%);
+}
+.links .left {
+    margin-left: 25px;
+    justify-content: flex-start;
+}
+
+.links .right {
+    justify-content: flex-end;
+}
+
+.gamecontainer {
+    height: calc(100vh - (75px + 25px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+#gameInfo {
+    width: 25%;
+    height: 100%;
+  }
+  
+  #frame {
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  #gameInfo .yes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25% 25px;
+  }
+  
+  #gameInfo div img {
+    aspect-ratio: 1 / 1;
+    height: 75px;
+    border-radius: 5px;
+  }
+  
+  #gameInfo div h3 { margin-left: 15px; }
+  
+  #gameInfo { position: relative; }
+  
+  #gameInfo #menubtns {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+  }
+  #menubtns button {
+    border: 3px solid white;
+    font-family: "DM Sans";
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: 0.4s all;
+    margin: 5px 5px;
+  }
+  
+  #menubtns button:hover {
+    opacity: 1;
+    scale: 1.1;
+  }
+  
+  #gameInfo #gameDescription {
+    margin: 15px;
+  }

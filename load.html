@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
+        <title>Art Class</title>
+
+        <link rel="stylesheet" href="./css/master.css">
+
+        <script src="./js/preload.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    </head>
+
+    <body theme="main">
+      
+        <nav>
+            <div class="logo">
+              <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+              <h1>Art Class</h1>
+            </div>
+        
+            <p id="time"></p>
+        
+            <div class="navitems">
+                <div class="navitem"><a href="/">Home</a></div>
+                <div class="navitem"><a href="/gs.html">Games</a></div>
+                <div class="navitem"><a href="/apps.html">Apps</a></div>
+                <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+                <div class="navitem"><a href="/search.html">Search</a></div>
+            </div>
+          </nav>
+
+          <div class="gamecontainer">
+            <iframe frameborder="0" id="frame"></iframe>
+            <div id="gameInfo">
+                <div class="yes">
+                    <img id="gameImage" alt="icon">
+                    <h3 id="gameTitle"></h3>
+                </div>
+                <p id="gameDescription"></p>
+                
+                <div id="menubtns">
+                    <button onclick="window.location.href = '/'"><i class="fa-solid fa-house"></i></button>
+                    <button onclick="fullscreen()"><i class="fa-solid fa-expand"></i></button>
+                </div>
+            </div>
+
+    </body>
+
+    <script src="./js/index.js"></script>
+</html>

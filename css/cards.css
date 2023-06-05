@@ -1,0 +1,46 @@
+@import url(themes.css);
+
+.cardgroup {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card i {
+    font-size: 100px;
+    margin-top: 5px;
+}
+
+.card img {
+    aspect-ratio: 1 / 1;
+    height: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 3vh;
+    font-family: "DM Sans";
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 1rem;
+    margin: 3px;
+    text-align: center;
+    width: 10%;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 2px 23px 5px var(--accent);;
+    -moz-box-shadow: 0px 2px 23px 5px var(--accent);
+    box-shadow: 0px 2px 23px 5px var(--accent);
+    /*transform: scale(1.05);*/
+}
+
+.card>* {
+    flex: 1 1 160px;
+}
+
+.description {
+    font-size: 10px;
+}

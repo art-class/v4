@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
+        <title>Art Class</title>
+
+        <link rel="stylesheet" href="./css/master.css">
+        <script src="./js/preload.js"></script>
+    </head>
+
+    <body theme="main">
+
+      <nav>
+        <div class="logo">
+          <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+          <h1>Art Class</h1>
+        </div>
+    
+        <p id="time"></p>
+    
+        <div class="navitems">
+            <div class="navitem"><a href="/index.html">Home</a></div>
+            <div class="navitem"><a href="/gs.html">Games</a></div>
+            <div class="navitem"><a href="/apps.html">Apps</a></div>
+            <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+            <div class="navitem"><a href="/">Search</a></div>
+        </div>
+      </nav>
+
+      <div class="center-container">
+      <h1>Search the web.</h1>
+      <p>Privacy is right at your finger tips.</p>
+      </div>
+
+      <div class="links">
+        <div class="left">
+          <a href="https://github.com/proudparrot2/artclass">GitHub</a>
+          <a href="https://discord.gg/desmos">Discord</a>
+        </div>
+        
+        <div class="right">
+          <a href="./credits.html">Credits</a>
+          <a href="./about.html">About</a>
+        </div>
+      </div>
+
+    </body>
+
+    <script>
+      fetch('./assets/data/splash.json')
+        .then(res => res.json())
+        .then(data => {
+          document.querySelector("#splash").innerHTML = data[Math.floor(Math.random() * data.length)]
+        })
+    </script>
+
+    <script src="./js/index.js"></script>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
+        <title>Art Class</title>
+
+        <link rel="stylesheet" href="./css/master.css">
+        <script src="./js/preload.js"></script>
+    </head>
+
+    <body theme="main">
+
+      <nav>
+        <div class="logo">
+          <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+          <h1>Art Class</h1>
+        </div>
+    
+        <p id="time"></p>
+    
+            <div class="navitems">
+            <div class="navitem selected"><a href="/">Home</a></div>
+            <div class="navitem"><a href="/gs.html">Games</a></div>
+            <div class="navitem"><a href="/apps.html">Apps</a></div>
+            <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+            <div class="navitem"><a href="/search.html">Search</a></div>
+        </div>
+      </nav>
+
+      <div class="center-container">
+        <h1>Welcome to <span>Art Class</span></h1>
+        <p id="splash"></p>
+        <br>
+        <a href="./gs.html"><button class="button play">Get started</button></a>
+      </div>
+
+      <div class="aesthetic-selector">
+        <label for="theme-select">Select a theme:</label>
+        <select id="theme-select">
+          <option value="main">Main</option>
+          <option value="forest">Forest</option>
+          <option value="ocean">Ocean</option>
+          <!-- add more options for other themes -->
+        </select>
+      </div>
+
+      <div class="links">
+        <div class="left">
+          <a href="https://github.com/proudparrot2/artclass">GitHub</a>
+          <a href="https://discord.gg/desmos">Discord</a>
+        </div>
+        
+        <div class="right">
+          <a href="./credits.html">Credits</a>
+          <a href="./about.html">About</a>
+        </div>
+      </div>
+
+    </body>
+
+    <script>
+      fetch('./assets/data/splash.json')
+        .then(res => res.json())
+        .then(data => {
+          document.querySelector("#splash").innerHTML = data[Math.floor(Math.random() * data.length)]
+        })
+    </script>
+        <script>
+          const themeSelect = document.getElementById('theme-select');
+          const body = document.querySelector('body');
+    
+          themeSelect.addEventListener('change', () => {
+            body.setAttribute('theme', themeSelect.value);
+          });
+        </script>
+
+    <script src="./js/index.js"></script>
+</html>
