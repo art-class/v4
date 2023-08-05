@@ -127,6 +127,7 @@ button:hover {
     width: 75%;
     height: 100%;
     border-radius: 10px;
+    background-color: white;
   }
   #gameInfo .yes {
     display: flex;
@@ -174,4 +175,10 @@ button:hover {
   
   #gameInfo #gameDescription {
     margin: 15px;
+  }
+
+  .proxyinput {
+    width: 600px;
+    height: 50px;
+    margin: 10px;
   }

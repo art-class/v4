@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
+        <title>Art Class</title>
+
+        <link rel="stylesheet" href="./css/master.css">
+        
+        <script src="/uv/uv.bundle.js"></script>
+        <script src="/uv/uv.config.js"></script>
+        <script src="./js/preload.js"></script>
+
+    </head>
+
+    <body theme="main">
+      
+        <nav>
+            <div class="logo">
+              <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+              <h1>Art Class</h1>
+            </div>
+        
+            <p id="time"></p>
+        
+            <div class="navitems">
+                <div class="navitem"><a href="/">Home</a></div>
+                <div class="navitem"><a href="/gs.html">Games</a></div>
+                <div class="navitem"><a href="/apps.html">Apps</a></div>
+                <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+                <div class="navitem"><a href="/search.html">Search</a></div>
+            </div>
+          </nav>
+
+          <div class="gamecontainer">
+            <iframe frameborder="0" id="frame"></iframe>
+            <div id="gameInfo">
+                <div class="yes">
+                    <img id="gameImage" alt="icon">
+                    <h3 id="gameTitle"></h3>
+                </div>
+                <p id="gameDescription"></p>
+                
+                <div id="menubtns">
+                    <a href="./gs.html"><button onclick="window.location.href = '/'"><i class="fas fa-arrow-left"></i></button></a>
+                    <button onclick="fullscreen()"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+    </body>
+    
+
+    
+
+    
+
+    <script src="./assets/data/games.js"></script>
+    
+    <script>
+        const params = new URLSearchParams(window.location.search)
+        if (params.get("game")) {
+            games.forEach(async game => {
+            if (game.id != params.get("game")) return
+            document.title = `${game.title} | Art Class`
+            document.querySelector("#gameImage").src = game.image
+            document.querySelector("#gameTitle").innerHTML = game.title
+            if (game.description) document.querySelector("#gameDescription").innerHTML = game.description
+
+            document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(new URL(game.url));
+            })
+        } else if (params.get("app")) {
+            
+            apps.forEach(app => {
+            if (app.id != params.get("app")) return
+            document.title = `${app.title} | Art Class`
+            document.querySelector("#gameImage").src = app.image
+            document.querySelector("#gameTitle").innerHTML = app.title
+            if (app.description) document.querySelector("#gameDescription").innerHTML = app.description
+            navigator.serviceWorker.register('./loadsw.js', {
+                scope: __uv$config.prefix
+                
+            }).then(() => {
+                document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(app.url);
+                
+                if (app.fullscreen) document.querySelector("#footer").style.display = "none" 
+            });
+            })
+        }
+    </script>
+    
+</html>

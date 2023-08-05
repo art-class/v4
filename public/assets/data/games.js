@@ -2,7 +2,7 @@ var games = [
   {
     'id': 'customgame',
     'title': 'Add custom game',
-    'image': 'assets/addicon.png'
+    'image': 'assets/images/add.png'
   },
   {
     'id': 'idlebreakout',
@@ -27,11 +27,11 @@ var games = [
     'title': 'Fireboy and Watergirl',
     'description': 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
     'url': 'https://educationgg-23704.web.app/games/FBWG4-main/index.html',
-    'image': 'http://m.arcadethunder.com/images/icons/fireboy-and-watergirl-4.jpg'
+    'image': 'https://play-lh.googleusercontent.com/5-YcjiTyMrPJEZe078dHMxnCxcg2A_8NWJZQieRvn2Gkf8JOuHZEbTmFyQ9gn5p2lnU'
   },
   {
     'id': 'osu',
-    'title': 'osu!',
+    'title': 'osu!',  
     'description': 'A web version of osu!',
     'url': 'https://web-osu.github.io/',
     'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png',
@@ -103,7 +103,7 @@ var games = [
     'id': 'paperio2',
     'title': 'Paper.io 2',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/paperio2/index.html',
-    'image': 'https://paperio2.online/upload/imgs/options/fav.jpg'
+    'image': 'https://play-lh.googleusercontent.com/KxcjUrs8S75iOPnKBR2b-s7eGtqbREwLgzttVxaM9Znl5ZxsDCl6qEZHny4rBkMeYA=w240-h480-rw'
   },
   {
     'id': 'impossiblequiz',

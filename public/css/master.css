@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=JetBrains+Mono:wght@300;400&display=swap');
+@import url(main.css);
+@import url(themes.css);
+@import url(nav.css);
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/ggsans.woff2) format("woff2")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+}

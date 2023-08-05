@@ -28,31 +28,12 @@
       </nav>
 
       <div class="center-container">
-      <h1>Search the web.</h1>
-      <p>Privacy is right at your finger tips.</p>
-      </div>
-
-      <div class="links">
-        <div class="left">
-          <a href="https://github.com/proudparrot2/artclass">GitHub</a>
-          <a href="https://discord.gg/desmos">Discord</a>
-        </div>
-        
-        <div class="right">
-          <a href="./credits.html">Credits</a>
-          <a href="./about.html">About</a>
-        </div>
+      <h1>Search the web</h1>
+      <p>(its a proxy)</p>
+      <input class="proxyinput" />
       </div>
 
     </body>
-
-    <script>
-      fetch('./assets/data/splash.json')
-        .then(res => res.json())
-        .then(data => {
-          document.querySelector("#splash").innerHTML = data[Math.floor(Math.random() * data.length)]
-        })
-    </script>
 
     <script src="./js/index.js"></script>
 </html>

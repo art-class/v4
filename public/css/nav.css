@@ -1,0 +1,145 @@
+@import url(master.css);
+
+nav {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: var(--navbar);
+}
+
+nav .navitem {
+  display: flex;
+  align-items: center;
+}
+
+nav .navitems {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  justify-self: flex-end;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo h1 { margin-left: 15px; font-size: 30px; }
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px;
+  transition: all 0.6s;
+  padding: 10px 15px;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s all;
+
+}
+
+nav a:visited {
+  color: var(--text);
+}
+
+nav img {
+  height: 40px;
+}
+
+nav .navitem a {
+  position: relative;
+}
+
+nav a[selected], nav .navitem a:hover {
+  background-color: var(--accent);
+  text-decoration: none;
+  color: var(--background);
+  filter: brightness(100%);
+}
+
+/*nav .navitem a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--accent);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+  nav .navitem a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}*/
+
+nav .navitem a:hover {
+  text-decoration: none;
+  filter: brightness(100%)
+}
+
+
+
+nav .navitem:not(:last-child)::after {
+  content: "/";
+  margin: 0 5px;
+  color: gray;
+} 
+
+
+/*.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--navbar);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: 0.6s opacity;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent var(--navbar) transparent;
+}*/
+
+.navitem a span {
+  width: 0; /* Initial position outside the parent */
+  opacity: 0; /* Initial opacity */
+  transition: 0.3s all; /* Transition properties */
+}
+
+.navitem a:hover span {
+  width: 100%; /* Slide in the span to the original position */
+  opacity: 1; /* Fade in the span */
+}
