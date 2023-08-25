@@ -7,7 +7,7 @@ var games = [
   {
     'id': 'idlebreakout',
     'title': 'Idle Breakout',
-    'url': 'https://glitchyeet.github.io/IdleBreakout/',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/idle-breakout/index.html/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
   {
@@ -362,11 +362,10 @@ var games = [
     'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/220px-2048_logo.svg.png'
   }
 ]
-
-var customgames = JSON.parse(localStorage.getItem("customgames")) || []
-customgames.forEach(game => {
+var customgames = getObj("customgames")
+if (customgames) customgames.forEach(game => {
   games.push(game)
 })
 
 console.log("Loaded " + games.length + " games")
-console.log("Loaded " + customgames.length + " custom games")
+if (customgames) console.log("Loaded " + customgames.length + " custom games")

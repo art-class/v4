@@ -5,7 +5,21 @@
         <title>Art Class</title>
 
         <link rel="stylesheet" href="./css/master.css">
+        <script src="/uv/uv.bundle.js"></script>
+        <script src="/uv/uv.config.js"></script>
         <script src="./js/preload.js"></script>
+
+        <style>
+          iframe {
+            border-radius: 5px;
+            background-color: white;
+            display: block;
+            margin: auto;
+            
+            height: calc(100vh - 80px);
+            width: calc(100vw - 30px);
+          }
+        </style>
     </head>
 
     <body theme="main">
@@ -23,17 +37,18 @@
             <div class="navitem"><a href="/gs.html">Games</a></div>
             <div class="navitem"><a href="/apps.html">Apps</a></div>
             <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-            <div class="navitem"><a href="/">Search</a></div>
+            <div class="navitem"><a selected href="/">Search</a></div>
         </div>
       </nav>
 
       <div class="center-container">
-      <h1>Search the web</h1>
-      <p>(its a proxy)</p>
-      <input class="proxyinput" />
+      <h1>Search</h1>
+      <input class="pxyinput" type="text" />
       </div>
+      <iframe></iframe>
 
     </body>
 
     <script src="./js/index.js"></script>
+    <script src="./js/search.js"></script>
 </html>
