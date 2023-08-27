@@ -37,15 +37,7 @@
         <a href="./gs.html"><button class="button play">Get started</button></a>
       </div>
 
-      <div class="aesthetic-selector">
-        <label for="theme-select">Select a theme:</label>
-        <select id="theme-select">
-          <option value="main">Main</option>
-          <option value="forest">Forest</option>
-          <option value="ocean">Ocean</option>
-          <!-- add more options for other themes -->
-        </select>
-      </div>
+      
 
       <div class="links">
         <div class="left">
@@ -68,13 +60,7 @@
           document.querySelector("#splash").innerHTML = data[Math.floor(Math.random() * data.length)]
         })
 
-      const themeSelect = document.getElementById('theme-select');
-      const body = document.querySelector('body');
-
-      themeSelect.addEventListener('change', () => {
-        body.setAttribute('theme', themeSelect.value);
-        localStorage.setItem("theme", themeSelect.value)
-      });
+     
     </script>
 
     <script src="./js/index.js"></script>
