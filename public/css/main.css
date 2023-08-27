@@ -183,7 +183,7 @@ button:hover {
     margin: 10px;
   }
 
-  input[type=text], button.secondary {
+  input[type=text], button.secondary, select {
      background-color: #111;
      transition: 0.4s border;
      border-radius: 5px;

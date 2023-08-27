@@ -41,3 +41,10 @@ function setTabPreset(tab) {
 
 if (localStorage.getItem("tabName")) document.querySelector("#tabname").value = localStorage.getItem("tabName")
 if (localStorage.getItem("tabIcon")) document.querySelector("#tabicon").value = localStorage.getItem("tabIcon")
+
+const themeSelect = document.getElementById('theme-select');
+
+themeSelect.addEventListener('change', () => {
+    document.body.setAttribute('theme', themeSelect.value);
+    localStorage.setItem("theme", themeSelect.value)
+});

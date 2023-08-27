@@ -94,3 +94,8 @@ if (localStorage.getItem("tabIcon")) {
 if (localStorage.getItem("tabName")) {
     document.title = localStorage.getItem("tabName")
 }
+
+if (localStorage.getItem("theme")) {
+    document.body.setAttribute("theme", localStorage.getItem("theme"))
+}
+console.log(localStorage.getItem("theme"))
