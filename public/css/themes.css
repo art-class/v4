@@ -18,3 +18,51 @@ body[theme="ocean"] {
     --navbar: #2d1a79;
     --accent: #2980b9;
 }
+body[theme="amoled"] {
+    --text-color: #ebebeb;
+    --background: #000000;
+    --navbar: #0f0f0f;
+    --accent: #0284d4;
+}
+body[theme="white"] {
+    --text-color: #000000;
+    --background: #ffffff;
+    --navbar: #dbdbdb;
+    --accent: #0284d4;
+}
+body[theme="sunset"] {
+    --text-color: #ffffff;
+    --background: linear-gradient(#f08b08, #f15e08);
+    --navbar: #f09f08;
+    --accent: #0284d4;
+}
+body[theme="flash"] {
+    --text-color: #ffffff;
+    --background: #ffffff;
+    --navbar: #ffffff;
+    --accent: #ffffff;
+}
+body[theme="matrix"] {
+    --text-color: #e0e0e0;
+    --background: linear-gradient(#000000, #006b09);
+    --navbar: #080808;
+    --accent: #0284d4;
+}
+body[theme="beach"] {
+    --text-color: #000000;
+    --background: #f6d7b0;
+    --navbar: #87CEEB;
+    --accent: #0284d4;
+}
+body[theme="murica"] {
+    --text-color: #000000;
+    --background: linear-gradient(#e21f1f, #2233cf);
+    --navbar: #e22e2e;
+    --accent: #0284d4;
+}
+body[theme="modern"] {
+    --text-color: #000000;
+    --background: url("https://yourcatholicfoundation.org.au/wp-content/uploads/2019/09/Main-Image-bg.jpg");
+    --navbar: #313131;
+    --accent: #0284d4;
+}
