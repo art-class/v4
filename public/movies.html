@@ -5,13 +5,14 @@
         <title>Art Class</title>
 
         <link rel="stylesheet" href="./css/master.css">
+
         <script src="/uv/uv.bundle.js"></script>
         <script src="/uv/uv.config.js"></script>
         <script src="./js/preload.js"></script>
     </head>
 
-    <body theme="main">
-
+    <body>
+      
       <nav>
         <div class="logo">
           <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
@@ -21,22 +22,22 @@
         <p id="time"></p>
     
         <div class="navitems">
-            <div class="navitem"><a href="/index.html">Home</a></div>
+            <div class="navitem"><a href="/">Home</a></div>
             <div class="navitem"><a href="/gs.html">Games</a></div>
             <div class="navitem"><a href="/apps.html">Apps</a></div>
             <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-            <div class="navitem"><a selected href="/search.html">Search</a></div>
+            <div class="navitem"><a href="/search.html">Search</a></div>
         </div>
       </nav>
 
-      <div class="center-container">
-      <h1>Search</h1>
-      <input class="pxyinput" type="text" />
-      </div>
-      <iframe class="frame"></iframe>
+        <iframe class="frame"></iframe>
+
+      <script>
+        document.querySelector(".frame").src = '/service/' + __uv$config.encodeUrl("https://tv-ep7.pages.dev")
+      </script>
 
     </body>
+    <!-- https://tv-ep7.pages.dev/ -->
 
     <script src="./js/index.js"></script>
-    <script src="./js/search.js"></script>
 </html>

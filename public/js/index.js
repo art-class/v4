@@ -27,12 +27,27 @@ function loadcustomapp() {
         setObj("customapps", customapps)
         window.location.href = self.location
     })
-    
-    
-    
-    
-    
 }
+
+if (localStorage.getItem("launchblank") && window.self !== window.top) {
+    launchab()
+}
+
+function launchab() {
+    const tab = window.open('about:blank', '_blank');
+    const iframe = tab.document.createElement('iframe');
+    const stl = iframe.style;
+    stl.border = stl.outline = 'none';
+    stl.width = '100vw';
+    stl.height = '100vh';
+    stl.position = 'fixed';
+    stl.left = stl.right = stl.top = stl.bottom = '0';
+    iframe.src = self.location;
+    tab.document.body.appendChild(iframe);
+    window.parent.window.location.replace(localStorage.getItem("panicurl") || 'https://classroom.google.com/h')
+}
+
+if (window.self !== window.self) document.querySelector("#launchab").style.display = "none"
 
 function loadcustomgame() {
     if (!getObj("customgames")) {
@@ -99,3 +114,8 @@ if (localStorage.getItem("theme")) {
     document.body.setAttribute("theme", localStorage.getItem("theme"))
 }
 console.log(localStorage.getItem("theme"))
+
+// Panic
+document.addEventListener("keydown", async (e) => {
+    if (localStorage.getItem("panickey") && localStorage.getItem("panickey") == e.key) window.parent.window.location.replace(localStorage.getItem("panicurl") || 'https://classroom.google.com/h')
+})

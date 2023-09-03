@@ -41,6 +41,7 @@ function setTabPreset(tab) {
 
 if (localStorage.getItem("tabName")) document.querySelector("#tabname").value = localStorage.getItem("tabName")
 if (localStorage.getItem("tabIcon")) document.querySelector("#tabicon").value = localStorage.getItem("tabIcon")
+if (localStorage.getItem("theme")) document.querySelector("#theme-select").value = localStorage.getItem("theme")
 
 const themeSelect = document.getElementById('theme-select');
 
@@ -48,3 +49,33 @@ themeSelect.addEventListener('change', () => {
     document.body.setAttribute('theme', themeSelect.value);
     localStorage.setItem("theme", themeSelect.value)
 });
+
+if (localStorage.getItem("panickey")) document.querySelector("#panickey").value = localStorage.getItem("panickey")
+if (localStorage.getItem("panicurl")) document.querySelector("#panicurl").value = localStorage.getItem("panicurl")
+
+
+var detecting = false;
+function detectPanic() {
+    var key = document.querySelector("#panickey")
+    var button = document.querySelector("#panickeybtn")
+    button.disabled = true
+    button.innerHTML = "Press any key..."
+
+    detecting = true
+    if (detecting) document.addEventListener("keydown", async (e) => {
+        key.value = e.key;
+        localStorage.setItem("panickey", e.key)
+        alert("Successfully set panic key to " + e.key)
+        detecting = false;
+    })
+}
+
+function setPanicKey() {
+    var key = document.querySelector("#panickey")
+    localStorage.setItem("panickey", key.value)
+}
+
+function setPanicUrl() {
+    var url = document.querySelector("#panicurl")
+    localStorage.setItem("panicurl", url.value)
+}
