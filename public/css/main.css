@@ -4,9 +4,12 @@
 body {
     color: var(--text-color);
     background-color: var(--background);
+    background-image: var(--background);
     position: relative;
     height: 100vh;
     text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
 /* width */
@@ -70,7 +73,7 @@ button {
     transition: 0.4s all;
 }
 
-.play { font-family: "Montserrat"; font-weight: 700; }
+.play { font-family: "Montserrat"; font-weight: 700; color: var(--text-color); }
 
 button:hover {
     filter: brightness(80%);
@@ -88,13 +91,13 @@ button:hover {
 .links .left,
 .links .right {
     display: flex;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
 .links a {
     margin-right: 25px;
-    color: white;
+    color: var(--text-color);
 }
 
 .links a:hover {
