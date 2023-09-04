@@ -11,6 +11,14 @@ input.addEventListener("keyup", function(event) {
     }
 });
 
+var params = new URLSearchParams(window.location.search)
+console.log("Searching for " + params.get("q"))
+if (params.get("q")) {
+  div.style.display = 'none'
+  frame.style.display = 'block'
+  document.querySelector("iframe").src = __uv$config.prefix + __uv$config.encodeUrl(search(params.get("q")));
+}
+
 function search(input, template) {
     try {
       // input is a valid URL:
