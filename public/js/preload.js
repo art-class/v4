@@ -43,3 +43,14 @@ hover.href = "https://cdn.jsdelivr.net/gh/ianlunn/hover/css/hover-min.css"
 hover.rel = "stylesheet"
 document.head.appendChild(hover)
 
+// Google Analytics
+var googleAnalytics = document.createElement("script")
+googleAnalytics.src = "https://www.googletagmanager.com/gtag/js?id=G-66ZE075DLD"
+googleAnalytics.async = true
+document.head.appendChild(googleAnalytics)
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-66ZE075DLD');
