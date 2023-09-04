@@ -11,6 +11,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
   {
+    'id': 'cookieclicker',
+    'title': 'Cookie Clicker',
+    'url': 'https://rawcdn.githack.com/carbonsystems-dev/gamevault/e5a7f73412c800c5f1258c830dc4052cedf27bfa/cookie-clicker-beta/index.html',
+    'image': 'https://cdn.discordapp.com/icons/339131488111034389/73f15cd93d96504af9877a53816d110c.png'
+  },
+  {
     'id': 'jacksmith',
     'title': 'Jacksmith',
     'url': 'https://art-class.github.io/assets/jacksmith',
