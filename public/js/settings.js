@@ -23,6 +23,10 @@ var tabPresets = {
         name: 'My Drive - Google Drive',
         icon: 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png'
     },
+    ixl: {
+        name: 'IXL | Math, English, Spanish, Science',
+        icon: 'https://www.ixl.com/favicon.ico'
+    },
     docs: {
         name: 'Google Docs',
         icon: 'https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico'
