@@ -1,4 +1,4 @@
-import { createBareServer } from "@tomphttp/bare-server-node";
+import { createBareServer } from '@tomphttp/bare-server-node';
 import express from "express";
 import { createServer } from "node:http";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
@@ -16,7 +16,7 @@ app.use("/uv/", express.static(uvPath));
 
 // Error for everything else
 app.use((req, res) => {
-  res.status(404);
+  res.status(404); 
   res.sendFile(join(publicPath, "404.html"));
 });
 

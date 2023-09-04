@@ -73,7 +73,7 @@ button {
     transition: 0.4s all;
 }
 
-.play { font-family: "Montserrat"; font-weight: 700; color: var(--text-color); }
+.play { font-family: "Montserrat"; font-weight: 700; color: var(--background); }
 
 button:hover {
     filter: brightness(80%);

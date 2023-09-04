@@ -19,7 +19,7 @@ var apps = [
     },
     {
       "id": "geforce",
-      "title": "GeForce NOW",
+      "title": "GeForce NOW (may not work)",
       "url": "https://play.geforcenow.com",
       'image': 'https://raw.githubusercontent.com/proudparrot2/cdn/main/8z9zeDIT_400x400-removebg-preview.png'
     },
