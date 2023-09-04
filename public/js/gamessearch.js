@@ -1,0 +1,2 @@
+const searchBar=document.getElementById('searchBar');const gameCards=document.getElementById('gamecards');function filterGames(){const searchTerm=searchBar.value.toLowerCase();const cards=gameCards.getElementsByClassName('card');for(const card of cards){const gameTitle=card.querySelector('.title').textContent.toLowerCase();if(gameTitle.includes(searchTerm)){card.style.display='block';}else{card.style.display='none';}}}
+searchBar.addEventListener('input',filterGames);
