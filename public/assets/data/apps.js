@@ -24,10 +24,10 @@ var apps = [
       'image': 'https://ar-fikranet.com/wp-content/uploads/2018/01/telegram-logo.jpg'
     }, 
     {
-      "id": "guilded",
-      "title": "Guilded",
-      "url": "https://www.guilded.gg/",
-      'image': 'https://yt3.googleusercontent.com/cPlwwgZkQQgHRLAg7jvJG4yKGLDId6NH7H_S87TCoEV_dbsF9Me_4YSBL5DyMsndx6hzoZxHUw=s176-c-k-c0x00ffffff-no-rj'
+      "id": "whatsapp",
+      "title": "WhatsApp",
+      "url": "https://web.whatsapp.com/",
+      'image': 'https://1.bp.blogspot.com/-GetQ_jMQCXk/XadXD6CqU7I/AAAAAAAADNc/TRGQTjf2VJIbkREs5Q6vEGyEZ2ath9mLQCLcBGAsYHQ/w800/WhatsApp%2BMessenger.webp'
     },
     {
       "id": "geforce",
