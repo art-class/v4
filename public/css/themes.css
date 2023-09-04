@@ -1,3 +1,15 @@
+body[theme="rose_gold"] {
+    --text-color: #ffffff;
+    --background: #f3a683;
+    --navbar: #e79a58;
+    --accent: #ff9a8b;
+}
+body[theme="midnight"] {
+    --text-color: white;
+    --background: #1a2023;
+    --navbar: #0e1213;
+    --accent: #0284d4;
+}
 body[theme="main"] {
     --text-color: white;
     --background: #1a2023;
