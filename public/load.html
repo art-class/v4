@@ -32,7 +32,7 @@
           </nav>
 
           <div class="gamecontainer">
-            <iframe frameborder="0" id="frame"></iframe>
+            <iframe allowfullscreen frameborder="0" id="frame"></iframe>
             <div id="gameInfo">
                 <div class="yes">
                     <img id="gameImage" alt="icon">
@@ -42,7 +42,7 @@
                 
                 <div id="menubtns">
                     <a href="./gs.html"><button onclick="window.location.href = '/'"><i class="fas fa-arrow-left"></i></button></a>
-                    <button onclick="fullscreen()"><i class="fas fa-expand"></i></button>
+                    <button onclick="document.querySelector('iframe').requestFullscreen()"><i class="fas fa-expand"></i></button>
                 </div>
             </div>
 
