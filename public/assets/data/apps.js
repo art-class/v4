@@ -97,18 +97,18 @@ var apps = [
       "description": "A remake of the Windows 11 UI in React.js"
     },
     {
-      'id': 'win11',
-      'title': 'Windows 11 in React',
-      'url': 'https://win11.blueedge.me/',
-      "image": "https://cdn.upload.systems/uploads/lnysPmIS.png",
-      "description": "A remake of the Windows 11 UI in React.js"
+      'id': 'win10',
+      'title': 'Windows 10 in React',
+      'url': 'https://win-10.vercel.app/',
+      "image": "https://downlody.com/windows/files/image/Windows-10-icon.png",
+      "description": "Windows 10 recreation in React.js"
     },
     {
       'id': 'winxp',
       'title': 'Windows XP in React',
       'url': 'https://www.oonjaa.com/',
       "image": "https://archive.org/services/img/1d9464dbff7a1630882d0e2090cb714c",
-      "description": "A remake of the Windows XP SP7 in React.js"
+      "description": "Windows XP recreation in React.js"
     },
     {
       'id': 'gbaemulator',
