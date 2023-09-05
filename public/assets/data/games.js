@@ -11,6 +11,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
   {
+    'id': 'rocketleague',
+    'title': 'Rocket League',
+    'url': 'https://cdn.githubraw.com/carbonsystems-dev/gamevault/main/Rocket-League/index.html',
+    'image': 'https://www.softgozar.com/Image/Softwares/Thumbnail/Rocket_League_Anniversary_SoftGozar.com.png'
+  },
+  {
     'id': 'cookieclicker',
     'title': 'Cookie Clicker',
     'description': 'Cookie Clicker is an addictive incremental game where players click to produce cookies, unlock upgrades, and aim to amass an ever-growing mountain of delicious digital treats.',
