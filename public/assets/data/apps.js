@@ -18,6 +18,18 @@ var apps = [
       'image': 'https://static.vecteezy.com/system/resources/previews/006/892/625/original/discord-logo-icon-editorial-free-vector.jpg'
     },
     {
+      "id": "telegram",
+      "title": "Telegram",
+      "url": "https://web.telegram.org/a/",
+      'image': 'https://ar-fikranet.com/wp-content/uploads/2018/01/telegram-logo.jpg'
+    }, 
+    {
+      "id": "guilded",
+      "title": "Guilded",
+      "url": "https://www.guilded.gg/",
+      'image': 'https://yt3.googleusercontent.com/cPlwwgZkQQgHRLAg7jvJG4yKGLDId6NH7H_S87TCoEV_dbsF9Me_4YSBL5DyMsndx6hzoZxHUw=s176-c-k-c0x00ffffff-no-rj'
+    },
+    {
       "id": "geforce",
       "title": "GeForce NOW (may not work)",
       "url": "https://play.geforcenow.com",
