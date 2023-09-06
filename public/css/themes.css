@@ -16,6 +16,12 @@ body[theme="main"] {
     --navbar: #0e1213;
     --accent: #0284d4;
 }
+body[theme="lgbtq"] {
+    --text-color: white;
+    --background: url("https://i.ibb.co/kSS8TFt/134830-D9-7-A4-D-4-EC0-9-C52-FAE6-CA59-DB19.png");
+    --navbar: #0e1213;
+    --accent: #0284d4;
+}
 
 body[theme="forest"] {
     --text-color: white;
