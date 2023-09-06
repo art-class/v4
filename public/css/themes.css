@@ -14,13 +14,13 @@ body[theme="main"] {
     --text-color: white;
     --background: #1a2023;
     --navbar: #0e1213;
-    --accent: #ffffff;
+    --accent: #0284d4;
 }
 body[theme="lgbtq"] {
     --text-color: black;
     --background: url("https://www.rd.com/wp-content/uploads/2021/05/traditional-gay-pride-flag.jpg?resize=2048");
     --navbar: #0e1213;
-    --accent: #0284d4;
+    --accent: #ffffff;
 }
 
 
