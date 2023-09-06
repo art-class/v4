@@ -14,7 +14,7 @@ body[theme="main"] {
     --text-color: white;
     --background: #1a2023;
     --navbar: #0e1213;
-    --accent: #0284d4;
+    --accent: #ffffff;
 }
 body[theme="lgbtq"] {
     --text-color: black;
