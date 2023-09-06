@@ -18,7 +18,7 @@ body[theme="main"] {
 }
 body[theme="lgbtq"] {
     --text-color: white;
-    --background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Intersex-inclusive_pride_flag.svg/1920px-Intersex-inclusive_pride_flag.svg.png");
+    --background: url("https://www.rd.com/wp-content/uploads/2021/05/traditional-gay-pride-flag.jpg?resize=2048");
     --navbar: #0e1213;
     --accent: #0284d4;
 }
