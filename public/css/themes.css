@@ -22,6 +22,12 @@ body[theme="lgbtq"] {
     --navbar: #0e1213;
     --accent: #0284d4;
 }
+body[theme="almawtliamerika"] {
+    --text-color: white;
+    --background: url("https://i.ibb.co/RSFKJXt/5-D3551-BF-9-EC2-46-E0-AE81-67-BD2-D6746-C4.png");
+    --navbar: #0e1213;
+    --accent: #0284d4;
+}
 
 body[theme="forest"] {
     --text-color: white;
