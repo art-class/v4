@@ -19,7 +19,7 @@ body[theme="main"] {
 body[theme="lgbtq"] {
     --text-color: black;
     --background: url("https://www.rd.com/wp-content/uploads/2021/05/traditional-gay-pride-flag.jpg?resize=2048");
-    --navbar: #0e1213;
+    --navbar: #bcf3f6;
     --accent: #ffffff;
 }
 
