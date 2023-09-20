@@ -79,8 +79,8 @@ var apps = [
     },
     {
       'id': 'movie-web',
-      'title': 'Movie-Web',
-      'url': 'http://movie-web.app',
+      'title': 'movie-web',
+      'url': 'http://movie-web.app/',
       'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
     },
     {
