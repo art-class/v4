@@ -78,10 +78,10 @@ var apps = [
       'image': 'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png'
     },
     {
-      'id': 'sflix',
-      'title': 'SFlix',
-      'url': 'https://sflix.to',
-      'image': 'https://play-lh.googleusercontent.com/YO-cgAQEdDuX9xvEYNOdPfc0-Nxzvz4vZaIt9eBOWoh2VTPHe8eHX6byn5b94X3gpcI=s200'
+      'id': 'movie-web',
+      'title': 'Movie-Web',
+      'url': 'http://movie-web.app',
+      'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
     },
     {
       'id': 'coolmathgames',
