@@ -20,7 +20,7 @@ var games = [
     'id': 'cookieclicker',
     'title': 'Cookie Clicker',
     'description': 'Cookie Clicker is an addictive incremental game where players click to produce cookies, unlock upgrades, and aim to amass an ever-growing mountain of delicious digital treats.',
-    'url': 'https://rawcdn.githack.com/carbonsystems-dev/gamevault/e5a7f73412c800c5f1258c830dc4052cedf27bfa/cookie-clicker-beta/index.html',
+    'url': 'https://sushi8756.github.io/Cookie-Clicker-2.031/',
     'image': 'https://cdn.discordapp.com/icons/339131488111034389/73f15cd93d96504af9877a53816d110c.png'
   },
   {
@@ -58,6 +58,7 @@ var games = [
   {
     'id': 'backrooms',
     'title': 'Backrooms',
+    'description': 'Scary game based on the viral 4Chan post.',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/backrooms/index.html',
     'image': 'https://media.wired.com/photos/627b0c1fb6048c47d506c6c0/1:1/w_679,h_679,c_limit/Backrooms-Games.jpg'
   },
