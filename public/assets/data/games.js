@@ -197,7 +197,13 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/X8FEOENa_t5mlRllBh2RRLc6sMnPIq56Wxa2ndValDOmwzIRhAv7MG6fT97TLQ2DK48'
   },
   {
-    'id': 'minecraft',
+      'id': 'minecraft',
+      'title': 'Eaglercraft 1.5.2',
+      'url': 'https://tinf0il.tech/minecraft.html',
+      'image': 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
+  },
+  {
+    'id': 'minecraft-old',
     'title': 'Minecraft Classic',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/minecraft-classic/index.html',
     'image': 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
