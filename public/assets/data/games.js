@@ -30,6 +30,12 @@ var games = [
     'image': 'https://lh3.googleusercontent.com/dJAftLFmxmWdTAEjuolFrtNNAX3D0HjODTm9703CP7JqM_jFgOgPR75d6xqRsYTwoTot'
   },
   {
+      'id': 'minecraft',
+      'title': 'Eaglercraft 1.5.2',
+      'url': 'https://tinf0il.tech/minecraft.html',
+      'image': 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
+  },
+  {
     'id': 'thereisnogame',
     'title': 'There Is No Game',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/there-is-no-game/index.html',
