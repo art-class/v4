@@ -30,6 +30,12 @@ body[theme="forest"] {
     --navbar: #1c221d;
     --accent: #27ae60;
 }
+body[theme="sunnydayguys"] {
+    --text-color: yellow;
+    --background: white;
+    --navbar: black;
+    --accent: white;
+}
 
 body[theme="ocean"] {
     --text-color: white;
