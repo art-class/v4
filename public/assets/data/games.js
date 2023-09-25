@@ -43,6 +43,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
   },
   {
+    'id': 'clickerheroes',
+    'title': 'Clicker Heroes',
+    'url': 'https://shadowgmes.github.io/gfiles/clicker-heroes/index.html',
+    'image': 'https://raw.githubusercontent.com/shadowgmes/shadowgmes.github.io/main/img/clickerheroes.png'
+  },
+  {
     'id': 'backrooms',
     'title': 'Backrooms',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/backrooms/index.html',
