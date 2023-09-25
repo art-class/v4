@@ -18,6 +18,18 @@ var apps = [
       'image': 'https://static.vecteezy.com/system/resources/previews/006/892/625/original/discord-logo-icon-editorial-free-vector.jpg'
     },
     {
+      "id": "telegram",
+      "title": "Telegram",
+      "url": "https://web.telegram.org/a/",
+      'image': 'https://ar-fikranet.com/wp-content/uploads/2018/01/telegram-logo.jpg'
+    }, 
+    {
+      "id": "guilded",
+      "title": "Guilded",
+      "url": "https://www.guilded.gg/",
+      'image': 'https://yt3.googleusercontent.com/cPlwwgZkQQgHRLAg7jvJG4yKGLDId6NH7H_S87TCoEV_dbsF9Me_4YSBL5DyMsndx6hzoZxHUw=s176-c-k-c0x00ffffff-no-rj'
+    },
+    {
       "id": "geforce",
       "title": "GeForce NOW (may not work)",
       "url": "https://play.geforcenow.com",
@@ -66,10 +78,10 @@ var apps = [
       'image': 'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png'
     },
     {
-      'id': 'sflix',
-      'title': 'SFlix',
-      'url': 'https://sflix.to',
-      'image': 'https://play-lh.googleusercontent.com/YO-cgAQEdDuX9xvEYNOdPfc0-Nxzvz4vZaIt9eBOWoh2VTPHe8eHX6byn5b94X3gpcI=s200'
+      'id': 'movie-web',
+      'title': 'movie-web',
+      'url': 'http://movie-web.app/',
+      'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
     },
     {
       'id': 'coolmathgames',
@@ -83,6 +95,20 @@ var apps = [
       'url': 'https://win11.blueedge.me/',
       "image": "https://cdn.upload.systems/uploads/lnysPmIS.png",
       "description": "A remake of the Windows 11 UI in React.js"
+    },
+    {
+      'id': 'win10',
+      'title': 'Windows 10 in React',
+      'url': 'https://win-10.vercel.app/',
+      "image": "https://downlody.com/windows/files/image/Windows-10-icon.png",
+      "description": "Windows 10 recreation in React.js"
+    },
+    {
+      'id': 'winxp',
+      'title': 'Windows XP in React',
+      'url': 'https://www.oonjaa.com/',
+      "image": "https://archive.org/services/img/1d9464dbff7a1630882d0e2090cb714c",
+      "description": "Windows XP recreation in React.js"
     },
     {
       'id': 'gbaemulator',
