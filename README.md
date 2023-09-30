@@ -1,7 +1,7 @@
-# Art Class
-Official website of Art Class
+# [Art Class](https://artclass.site)
+*Official website of Art Class!*
 
-### Deploy
+# Easy Deploy (Instructions below)
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/art-class/v4)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/art-class/v4)
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/art-class/v4)
@@ -10,7 +10,18 @@ Official website of Art Class
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/art-class/v4)
 [![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repositoryurl=https://github.com/art-class/v4)
 
-### Install using the terminal
+# How do I install Art Class?
+### Easy Install using Render
+You will need to sign up for render if you havent already, you can do that [Here](https://dashboard.render.com/register)! Once you register, click the "Deploy To Render" link. Once you name your **Blueprint**, scroll down to the bottom and hit "Create"! All done! Congrats, you've set up Art Class on Render!
+(You may have to fork this directory due to the recreation of Art Class being blocked.)
+
+### Easy Install using Replit
+Deploying using Replit will save you from using the "shell" commands below. IF you haven't signed for Replit yet, you should take the time now so you can save time later, you can sign up for Replit [here](https://replit.com/signup)! Once you register, click the "Run On Replit" link. It should have already selected NodeJS as the coding language, if not, please select it using the **Language** drop down box. Once you have completed these steps and named your site, click **Import From GitHub**! After some time Replit should have created your own copy of Art Class! Congrats, you've set up a working copy of Art Class on Replit!
+
+**Instructions for other methods coming soon!!**  
+
+## Installing Art Class using an VPS? Here is how to install Art Class using an terminal!
+
 You will need to have [NodeJS](https://nodejs.org) and [Git](https://git-scm.com/download) installed.
 ````bash
 $ git clone https://github.com/art-class/v4.git
