@@ -16,6 +16,8 @@ You will need to sign up for render if you havent already, you can do that [Here
 (You may have to fork this directory due to the recreation of Art Class being blocked.)
 
 ### Easy Install using Replit
+**Warning: You will be unable to edit Ultraviolet due to the ban of proxies on Replit, if this is an issue, you should set up using a different method!**
+
 Deploying using Replit will save you from using the "shell" commands below. IF you haven't signed for Replit yet, you should take the time now so you can save time later, you can sign up for Replit [here](https://replit.com/signup)! Once you register, click the "Run On Replit" link. It should have already selected NodeJS as the coding language, if not, please select it using the **Language** drop down box. Once you have completed these steps and named your site, click **Import From GitHub**! After some time Replit should have created your own copy of Art Class! Congrats, you've set up a working copy of Art Class on Replit!
 
 **Instructions for other methods coming soon!!**  
