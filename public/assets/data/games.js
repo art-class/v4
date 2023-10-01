@@ -10,6 +10,12 @@ var games = [
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/idle-breakout/index.html/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
+    {
+    'id': 'eggycar',
+    'title': 'Eggy Car',
+    'url': 'https://raw.githack.com/3kh0/3kh0-Assets/main/eggycar/index.html',
+    'image': 'https://raw.githubusercontent.com/3kh0/3kh0-assets/main/eggycar/eggy-car.png'
+  },
   {
     'id': 'rocketleague',
     'title': 'Rocket League',
