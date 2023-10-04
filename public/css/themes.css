@@ -85,3 +85,9 @@ body[theme="modern"] {
     --navbar: #313131;
     --accent: #0284d4;
 }
+body[theme="crueltysquad"] {
+    --text-color: #f70d1a;
+    --navbar: #000000;
+    --accent: #9efd38;
+    --background: url("https://crus.cc/texture/keith_mason/cruelty_squad/Diamond_Tile_CitrusDrink.png");
+}
