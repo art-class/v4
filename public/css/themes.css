@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=papyrus+SC'); /* this import is to use font in only one class, if it doesn't work i will change it, but if it does work but 
-devs do not intend to push the pull with the font changes i will also change it.*/
 body[theme="rose_gold"] {
     --text-color: #ffffff;
     --background: #f3a683;
@@ -93,5 +91,4 @@ body[theme="crueltysquad"] {
     --accent: #9efd38;
     --background: url("https://crus.cc/texture/keith_mason/cruelty_squad/freak_tile_pink_blue.png");
     --background-repeat: repeat;
-    --font-family: papyrus;
 }
