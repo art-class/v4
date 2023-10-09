@@ -32,8 +32,50 @@
         <h1>404</h1>
         <p id="splash">This probably wasn't supposed to happen.</p> <br>
         <p>In the event that isn't supposed to happen, <br>you can report it in our <a href="https://discord.gg/desmos">Discord server.</a></p>
-        <br>
+        <br/>
         <a href="./index.html"><button class="button play">Go home?</button></a>
+                    <button class="take-me-home-button" onclick="statsForNerds()">Stats for nerds</button><br/>
+     
+    
+
+    <div id="sfn" style="display: none;" class="message">
+      Please make a issue about this happening on the <a href="https://github.com/art-class/v4/issues">Github issue tracker</a>.<br /> Requested URL: <span id="full">Fetching...</span><br />
+      Referrer: <span id="ref">Fetching...</span><br />
+      Title: <span id="title">Fetching...</span><br />
+      Screen height: <span id="height">Fetching...</span><br />
+      Screen width: <span id="width">Fetching...</span><br />
+      Window height: <span id="winheight">Fetching...</span><br />
+      Window width: <span id="winwidth">Fetching...</span><br />
+      Cookies: <span id="cookie">Fetching...</span><br />
+      User agent: <span id="ua">Fetching...</span><br />
+      OS platform: <span id="plat">Fetching...</span><br />
+      Online: <span id="online">Fetching...</span><br />
+      Error code: 404<br />
+    </div>
+
+    <script>
+      function statsForNerds() {
+        var x = document.getElementById("sfn");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          console.log("[ℹ️] Showing the stats for nerds!");
+        } else {
+          x.style.display = "none";
+          console.log("[ℹ️] Hiding the stats for nerds!");
+        }
+      }
+      document.getElementById("full").innerText = window.location.href;
+      document.getElementById("ref").innerHTML = document.referrer;
+      document.getElementById("title").innerText = document.title;
+      document.getElementById("height").innerHTML = screen.height + "px";
+      document.getElementById("width").innerHTML = screen.width + "px";
+      document.getElementById("winheight").innerHTML = window.innerHeight + "px";
+      document.getElementById("winwidth").innerHTML = window.innerWidth + "px";
+      document.getElementById("cookie").innerText = navigator.cookieEnabled;
+      document.getElementById("ua").innerHTML = navigator.userAgent;
+      document.getElementById("plat").innerHTML = navigator.platform;
+      document.getElementById("online").innerHTML = navigator.onLine;
+    </script>
       </div>
 
     </body>
