@@ -357,7 +357,7 @@ var games = [
   {
     id: 'doodlejump',
     title: 'Doodle Jump',
-    url: 'https://upload.wikimedia.org/wikipedia/en/a/ac/Doodle_jump_icon.png',
+    url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/doodle-jump/index.html',
     image: 'https://assets-prd.ignimgs.com/2022/03/16/doodlejump-1647405974576.jpg'
   },
   {
