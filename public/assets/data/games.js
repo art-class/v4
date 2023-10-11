@@ -3,7 +3,7 @@ var games = [
     id: 'customgame',
     title: 'Add custom game',
     image: 'assets/images/add.png'
-  },
+  }, 
   {
     id: 'idlebreakout',
     title: 'Idle Breakout',
