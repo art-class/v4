@@ -7,7 +7,6 @@ body:
     id: game
     attributes:
       label: Game name
-      description: What is the name of this game?
       placeholder: Flappy Bird
     validations:
       required: true
