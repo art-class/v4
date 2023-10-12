@@ -3,7 +3,7 @@ description: Report a bug you see on the website
 assignees:
   - proudparrot2
 body:
-  - tfype: input
+  - type: input
     id: issue
     attributes:
       label: "What's happening?"
