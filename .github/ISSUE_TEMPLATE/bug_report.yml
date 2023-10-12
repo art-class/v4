@@ -14,7 +14,6 @@ body:
     id: stepstoreproduce
     attributes:
       label: "Please give instructions on how we can reproduce the error you're reporting."
-      description: If so, please put a link to it.
     validations:
       required: true
   - type: input
