@@ -1,5 +1,5 @@
 name: Game request
-description: Request a game to be added to Art Class
+description: Request a game to be added to Art Class (can also be used for apps)
 assignees:
   - proudparrot2
 body:
