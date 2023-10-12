@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a bug you see on the website
+assignees:
+  - proudparrot2
+body:
+  - type: input
+    id: issue
+    attributes:
+      label: "What's happening?"
+      placeholder: "Setting the tab icon isn't working"
+    validations:
+      required: true
+  - type: textarea
+    id: stepstoreproduce
+    attributes:
+      label: "Please give instructions on how we can reproduce the error you're reporting."
+      description: If so, please put a link to it.
+    validations:
+      required: true
+  - type: input
+    id: expectedbehavior
+    label: "Please describe what's supposed to happen"
+    validations:
+      required: true
+  - type: input
+    id: anythingelse
+    label: "Anything else we should know?"
+    validations:
+      required: false
