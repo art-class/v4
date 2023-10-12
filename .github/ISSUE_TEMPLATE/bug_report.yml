@@ -19,7 +19,8 @@ body:
       required: true
   - type: input
     id: expectedbehavior
-    label: "Please describe what's supposed to happen"
+    attributes:
+      label: "Please describe what's supposed to happen"
     validations:
       required: true
   - type: input
