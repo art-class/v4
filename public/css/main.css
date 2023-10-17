@@ -208,6 +208,20 @@ button:hover {
   border-radius: 5px;
  }
 
+#search {
+background-color: #111;
+transition: 0.4s border;
+border-radius: 5px;
+border: none;
+font-size: 20px;
+width: 500px;
+height: 45px;
+color: white;
+text-align: center;
+padding: 5px 15px;
+margin: 5px auto;
+}
+
  .frame {
   border-radius: 5px;
   background-color: white;
