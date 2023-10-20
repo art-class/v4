@@ -31,14 +31,6 @@ body[theme="forest"] {
     --accent: #27ae60;
 }
 
-body[theme="suprcolgams"] {
-    --text-color: #39ff14;
-    --background: #ff1dce;
-    --navbar: #ff33ff;
-    --accent: #39ff14;
-}
-
-
 body[theme="ocean"] {
     --text-color: white;
     --background: #34495e;
