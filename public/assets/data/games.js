@@ -3,14 +3,14 @@ var games = [
     id: 'customgame',
     title: 'Add custom game',
     image: 'assets/images/add.png'
-  }, 
+  },
   {
     id: 'idlebreakout',
     title: 'Idle Breakout',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/idle-breakout/index.html/',
     image: 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
-    {
+  {
     id: 'eggycar',
     title: 'Eggy Car',
     url: 'https://raw.githack.com/3kh0/3kh0-Assets/main/eggycar/index.html',
@@ -56,7 +56,7 @@ var games = [
   },
   {
     id: 'osu',
-    title: 'osu!',  
+    title: 'osu!',
     description: 'A web version of osu!',
     url: 'https://web-osu.github.io/',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png',
@@ -103,6 +103,12 @@ var games = [
     title: 'Papa\'s Scooperia',
     url: 'https://dynamicruffle.vercel.app/?play=papascoop',
     image: 'https://play-lh.googleusercontent.com/KpLBHo89bWG3jmuYb_KqDD1rZSY4XzXcHiMLZ1PCv83GMwVMcJluuuXrT32oQGCo51A'
+  },
+  {
+    id: 'ultimatechess',
+    title: 'Ultimate Chess',
+    url: 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fultimate-chess.xml',
+    image: 'https://img.kbhgames.com/2010/05/Ultimate-Chess.jpg'
   },
   {
     id: 'jetpackjoyride',
@@ -206,7 +212,7 @@ var games = [
     image: 'https://trefoilkingdom.com/uploads/games/21624/Run-1.jpg',
     description: 'Run 1 is a classic game where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer'
   },
-    {
+  {
     id: 'run2',
     title: 'Run 2',
     url: 'https://cdn.githubraw.com/carbonsystems-dev/gamevault/main/Run%202/index.html',
