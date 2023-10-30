@@ -1,7 +1,7 @@
-const setObj = function(key, obj) {
+const setObj = function (key, obj) {
     localStorage.setItem(key, JSON.stringify(obj))
 }
-const getObj = function(key) {
+const getObj = function (key) {
     return JSON.parse(localStorage.getItem(key))
 }
 
@@ -13,20 +13,20 @@ function loadcustomapp() {
     var url = prompt("What's this app's url? (required)")
     var icon = prompt("What's this app's icon? (optional)")
     var description = prompt("What's this app's description? (optional)")
-   
+
 
     if (!name || !url) return alert("All required fields must be filled in")
     if (name.length > 15) return alert("App name is too long (max 30 characters)")
 
-    
+
     fetch("https://www.uuidtools.com/api/generate/v4")
-    .then(response => response.json())
-    .then(data => {
-        var customapps = getObj("customapps") || []
-        customapps.push(JSON.parse(`{ "title": "${name} (Custom app)", "url": "${url}", "id": "${data[0]}", "image": "${icon}", "description": "${description}" }`))
-        setObj("customapps", customapps)
-        window.location.href = self.location
-    })
+        .then(response => response.json())
+        .then(data => {
+            var customapps = getObj("customapps") || []
+            customapps.push(JSON.parse(`{ "title": "${name} (Custom app)", "url": "${url}", "id": "${data[0]}", "image": "${icon}", "description": "${description}" }`))
+            setObj("customapps", customapps)
+            window.location.href = self.location
+        })
 }
 
 if (localStorage.getItem("launchblank") && window.self !== window.top) {
@@ -61,21 +61,21 @@ function loadcustomgame() {
     if (!name || !url) return alert("All required fields must be filled in")
     if (name.length > 15) return alert("Game name is too long (max 30 characters)")
 
-    
+
     fetch("https://www.uuidtools.com/api/generate/v4")
-    .then(response => response.json())
-    .then(data => {
-        var customgames = getObj("customgames") || []
-        customgames.push(JSON.parse(`{ "title": "${name} (Custom game)", "url": "${url}", "id": "${data[0]}", "image": "${icon}", "description": "${description}" }`))
-        console.log(customgames)
-        setObj("customgames", customgames)
+        .then(response => response.json())
+        .then(data => {
+            var customgames = getObj("customgames") || []
+            customgames.push(JSON.parse(`{ "title": "${name} (Custom game)", "url": "${url}", "id": "${data[0]}", "image": "${icon}", "description": "${description}" }`))
+            console.log(customgames)
+            setObj("customgames", customgames)
 
-    console.log(getObj("customgames"))
-        //window.location.href = self.location
-    })
+            console.log(getObj("customgames"))
+            //window.location.href = self.location
+        })
 
-    
-    
+
+
 }
 
 function debug() {

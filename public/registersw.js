@@ -9,7 +9,7 @@ const swAllowedHostnames = ["localhost", "127.0.0.1"];
  * Used in 404.html and index.html
  */
 async function registerSW() {
-    console.log("Starting registration...")
+  console.log("Starting registration...")
   if (
     location.protocol !== "https:" &&
     !swAllowedHostnames.includes(location.hostname)
@@ -23,7 +23,7 @@ async function registerSW() {
   await navigator.serviceWorker.register('sw.js', {
     scope: __uv$config.prefix,
   })
-  
+
 }
 
 
