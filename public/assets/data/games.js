@@ -346,7 +346,7 @@ var games = [
     id: 'fruitninja',
     title: 'Fruit Ninja',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/fruitninja/index.html',
-    image: 'https://downloadr2.apkmirror.com/wp-content/uploads/2019/01/5c5122d13cd72.png'
+    image: 'https://play-lh.googleusercontent.com/iRlGmvtJ524J-gAGdJJchMv-MH-9AuG80TAx8Rv8q3lObiI7kLVZrEvjVOM-yw3BBH4'
   },
   {
     id: 'bloxors',
@@ -427,6 +427,16 @@ var games = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/220px-2048_logo.svg.png'
   }
 ]
+games.sort(function (a, b) {
+  return a.title.localeCompare(b.title);
+});
+var customGameId = "customgame"; // replace with the id of the game you want to pin
+var customGame = games.find(function (game) {
+  return game.id === customGameId;
+});
+games.splice(games.indexOf(customGame), 1);
+games.unshift(customGame);
+
 var customgames = getObj("customgames")
 if (customgames) customgames.forEach(game => {
   games.push(game)

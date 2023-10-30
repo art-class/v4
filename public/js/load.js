@@ -22,3 +22,50 @@ if (params.get("game")) {
         document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(app.url);
     })
 }
+
+if (!getObj("favoritedGames")) setObj("favoritedGames", [])
+if (!getObj("favoritedApps")) setObj("favoritedApps", [])
+
+var favoritedButton = document.querySelector(".favorited")
+var favoritedGames = getObj("favoritedGames")
+var favoritedApps = getObj("favoritedApps")
+
+var game = params.get("game")
+var app = params.get("app")
+
+if (favoritedGames.includes(game)) {
+    favoritedButton.classList.remove("far")
+    favoritedButton.classList.add("fas")
+}
+
+if (favoritedGames.includes(game)) {
+    favoritedButton.classList.remove("far")
+    favoritedButton.classList.add("fas")
+}
+function favorite() {
+    if (game) {
+        var index = favoritedGames.indexOf(game);
+        if (index !== -1) {
+            favoritedGames.splice(index, 1);
+            favoritedButton.classList.remove("fas")
+            favoritedButton.classList.add("far")
+        } else {
+            favoritedGames.push(game)
+            favoritedButton.classList.remove("far")
+            favoritedButton.classList.add("fas")
+        }
+        setObj("favoritedGames", favoritedGames);
+    } else if (app) {
+        var index = favoritedGames.indexOf(game);
+        if (index !== -1) {
+            favoritedGames.splice(index, 1);
+            favoritedButton.classList.remove("fas")
+            favoritedButton.classList.add("far")
+        } else {
+            favoritedGames.push(game)
+            favoritedButton.classList.remove("far")
+            favoritedButton.classList.add("fas")
+        }
+        setObj("favoritedGames", favoritedGames);
+    }
+}

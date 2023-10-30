@@ -132,7 +132,7 @@ button:hover {
     border-radius: 10px;
     background-color: white;
   }
-  #gameInfo .yes {
+  #gameInfo .gameHeader {
     display: flex;
     align-items: center;
     justify-content: center;

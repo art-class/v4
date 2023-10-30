@@ -13,10 +13,13 @@ games.forEach(game => {
   text.innerHTML = game.title
   card.appendChild(image)
   card.appendChild(text)
-  //card.appendChild(descrip)
-  document.querySelector("#gamecards").appendChild(card)
+  // document.querySelector("#gamecards").appendChild(card)
+  if (getObj("favoritedGames").includes(game.id)) {
+    document.querySelector("#favoritedgames").appendChild(card)
+  } else {
+    document.querySelector("#gamecards").appendChild(card)
+  }
 
-  //card.classList.add(`hvr-${effects[Math.floor(Math.random() * effects.length)]}`)
   card.classList.add("hvr-bob")
   card.addEventListener("click", () => {
 
