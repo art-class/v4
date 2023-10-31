@@ -1,3 +1,4 @@
+if (!getObj("favoritedGames")) setObj("favoritedGames", [])
 games.forEach(game => {
   var card = document.createElement("div")
   var image = document.createElement("img")

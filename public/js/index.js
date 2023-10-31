@@ -119,3 +119,5 @@ console.log(localStorage.getItem("theme"))
 document.addEventListener("keydown", async (e) => {
     if (localStorage.getItem("panickey") && localStorage.getItem("panickey") == e.key) window.parent.window.location.replace(localStorage.getItem("panicurl") || 'https://classroom.google.com/h')
 })
+
+// Debug

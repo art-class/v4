@@ -1,3 +1,4 @@
+if (!getObj("favoritedApps")) setObj("favoritedApps", [])
 apps.forEach(app => {
   var card = document.createElement("div")
   var image = document.createElement("img")
