@@ -432,6 +432,53 @@ var games = [
     url: 'https://now.gg/play/roblox-corporation/5349/roblox',
     image: 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=w240-h480-rw',
     description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual.'
+  },
+  {
+    id: 'baconmaydie',
+    title: 'Bacon May Die',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/c1832d589bc39c298bd23149733fca1026972d06/2/e333d315-40d0-46f6-a1ef-7e3f6bdd5113/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/c1832d589bc39c298bd23149733fca1026972d06/thumb/e333d315-40d0-46f6-a1ef-7e3f6bdd5113.jpg',
+    description: 'Warning: pressing ESC will exit the game.'
+  },
+  {
+    id: 'burninrubber5xs',
+    title: 'Burnin\' Rubber 5 XS',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/1/c35dc918-139e-4159-be3d-0d1ef0557e4e/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/c35dc918-139e-4159-be3d-0d1ef0557e4e.jpg',
+    description: 'This game is resource-heavy. Make sure to adjust quality using the Star button in the main menu.'
+  },
+  {
+    id: 'funnyshooter2',
+    title: 'Funny Shooter 2',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/1/6af3cc65-32f9-4f3d-a66c-6c8882a7c5df/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/6af3cc65-32f9-4f3d-a66c-6c8882a7c5df.jpg',
+    description: 'This game has a working rewarded ad bypass, but it will temporarily mute the game. It will unmute at level start/end.'
+  },
+  {
+    id: 'hydrostorm2',
+    title: 'Hydro Storm 2',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/1/283a1142-4fa3-46c4-8a3f-35ac3a28f072/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/283a1142-4fa3-46c4-8a3f-35ac3a28f072.jpg',
+    description: 'This game is resource-heavy. Make sure to adjust quality using the Star button in the main menu.'
+  },
+  {
+    id: 'pixwars2',
+    title: 'PixWars 2',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/1/c4e5b82d-a26a-437b-8b6e-7598c98cf39b/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/c4e5b82d-a26a-437b-8b6e-7598c98cf39b.jpg',
+    description: 'An error is displayed during startup. It can be ignored, the game still works.'
+  },
+  {
+    id: 'recoil',
+    title: 'Recoil',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/b0687b5099af0b76aedf37743f2d03cbeef26467/2/5cf218d2-f550-420c-8e55-7029efc5b4db/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
+  },
+  {
+    id: 'vex8',
+    title: 'Vex 8',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/62811dcb46c10a583a1431e1784217bc5316648c/2/6dcc5fd9-a43a-4e13-9b6f-456a416e1059/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/6dcc5fd9-a43a-4e13-9b6f-456a416e1059.jpg'
   }
 ]
 games.sort(function (a, b) {
