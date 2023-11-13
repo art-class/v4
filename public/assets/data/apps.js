@@ -11,6 +11,13 @@ var apps = [
       'image': 'https://img.freepik.com/free-icon/search_318-265146.jpg'
       
     },
+       {
+      "id": "wikipedia",
+      "title": "Wikipedia",
+      "url": "https://www.wikipedia.org/",
+      'image': 'https://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia_W_-_SuperTinyIcons.svg'
+      
+    },
     {
       "id": "discord",
       "title": "Discord",
