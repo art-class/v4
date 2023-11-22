@@ -12,7 +12,7 @@ A website with tons of games, apps, built-in proxy, emulator, and more fun goodi
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/art-class/v4)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/art-class/v4)
 
-> You currently cannot deploy Art Class to a static host, such as Vercel, Cloudflare Pages, or GitHub Pages. This feature is planned in a future update. 
+> You currently cannot deploy Art Class to a static host, such as Vercel, Netlify, Cloudflare Pages, or GitHub Pages. This feature is planned in a future update. 
 
 ## Run locally
 
