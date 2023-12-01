@@ -443,7 +443,7 @@ var games = [
   {
     id: 'burninrubber5xs',
     title: 'Burnin\' Rubber 5 XS',
-    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/1/c35dc918-139e-4159-be3d-0d1ef0557e4e/index.html',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/8ad8d5b123954f4a5d7e35ca84d5aacba0061eec/1/c35dc918-139e-4159-be3d-0d1ef0557e4e/index.html',
     image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/c35dc918-139e-4159-be3d-0d1ef0557e4e.jpg',
     description: 'This game is resource-heavy. Make sure to adjust quality using the Star button in the main menu.'
   },
@@ -457,7 +457,7 @@ var games = [
   {
     id: 'hydrostorm2',
     title: 'Hydro Storm 2',
-    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/1/283a1142-4fa3-46c4-8a3f-35ac3a28f072/index.html',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/8ad8d5b123954f4a5d7e35ca84d5aacba0061eec/1/283a1142-4fa3-46c4-8a3f-35ac3a28f072/index.html',
     image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/283a1142-4fa3-46c4-8a3f-35ac3a28f072.jpg',
     description: 'This game is resource-heavy. Make sure to adjust quality using the Star button in the main menu.'
   },
@@ -477,7 +477,7 @@ var games = [
   {
     id: 'vex8',
     title: 'Vex 8',
-    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/62811dcb46c10a583a1431e1784217bc5316648c/2/6dcc5fd9-a43a-4e13-9b6f-456a416e1059/index.html',
+    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/8ad8d5b123954f4a5d7e35ca84d5aacba0061eec/2/6dcc5fd9-a43a-4e13-9b6f-456a416e1059/index.html',
     image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/6dcc5fd9-a43a-4e13-9b6f-456a416e1059.jpg'
   }
 ]
