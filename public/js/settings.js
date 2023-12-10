@@ -57,6 +57,16 @@ themeSelect.addEventListener('change', () => {
 if (localStorage.getItem("panickey")) document.querySelector("#panickey").value = localStorage.getItem("panickey")
 if (localStorage.getItem("panicurl")) document.querySelector("#panicurl").value = localStorage.getItem("panicurl")
 
+async function detectPanicHandler(e, key, button) {
+    key.value = e.key;
+    localStorage.setItem("panickey", e.key)l;
+    alert("Successfully set panic key to " + e.key);
+    button.innerHTML = "Auto-detect panic key";
+    button.disabled = false;
+    detecting = false;
+
+    document.clearEventListener("keydown", (e) => { detectPanicHandler(e, key, button) })
+}
 
 var detecting = false;
 function detectPanic() {
@@ -66,11 +76,8 @@ function detectPanic() {
     button.innerHTML = "Press any key..."
 
     detecting = true
-    if (detecting) document.addEventListener("keydown", async (e) => {
-        key.value = e.key;
-        localStorage.setItem("panickey", e.key)
-        alert("Successfully set panic key to " + e.key)
-        detecting = false;
+    document.addEventListener("keydown", (e) => { detectPanicHandler(e, key, button) })
+ 
     })
 }
 
