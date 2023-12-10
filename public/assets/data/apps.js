@@ -28,7 +28,7 @@ var apps = [
       "id": "telegram",
       "title": "Telegram",
       "url": "https://web.telegram.org/a/",
-      'image': 'https://ar-fikranet.com/wp-content/uploads/2018/01/telegram-logo.jpg'
+      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png'
     }, 
     {
       "id": "guilded",
