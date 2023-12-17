@@ -30,7 +30,7 @@ body {
   }
 
 h1 , h2 , h3  {
-    font-family: "gg sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 { font-size: 50px; }
@@ -40,7 +40,7 @@ h1 { font-size: 50px; }
 p { font-size: 20px; }
 
 h1 > span {
-    font-family: "gg sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: var(--accent);
 }
 
@@ -73,7 +73,7 @@ button {
     transition: 0.4s all;
 }
 
-.play { font-family: "gg sans"; font-weight: 700; color: var(--background); }
+.play { font-family: "Montserrat"; font-weight: 700; color: var(--background); }
 
 button:hover {
     filter: brightness(80%);
