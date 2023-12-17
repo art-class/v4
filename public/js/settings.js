@@ -66,12 +66,18 @@ function detectPanic() {
     button.innerHTML = "Press any key..."
 
     detecting = true
-    if (detecting) document.addEventListener("keydown", async (e) => {
+    document.addEventListener("keydown", detectPanicHandler)
+
+    function detectPanicHandler(e) {
         key.value = e.key;
-        localStorage.setItem("panickey", e.key)
-        alert("Successfully set panic key to " + e.key)
+        localStorage.setItem("panickey", e.key);
+        button.innerHTML = "Auto-detect panic key";
+        button.disabled = false;
         detecting = false;
-    })
+
+        document.removeEventListener("keydown", detectPanicHandler)
+    }
+
 }
 
 function setPanicKey() {
