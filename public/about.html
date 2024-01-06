@@ -37,6 +37,24 @@
         apps!
       </p>
       <br />
+      <div id="contributors"><h3>Our Contributors:</h3><div id="contributors-container"></div><br>
+
+
+    
+    <script>
+        const contributorsContainer = document.getElementById("contributors-container");
+
+        const contribLink = document.createElement("a");
+        contribLink.href = "https://github.com/art-class/v4/graphs/contributors";
+
+        const contribImage = document.createElement("img");
+        contribImage.src = "https://contrib.rocks/image?repo=art-class/v4#";
+
+        contribLink.appendChild(contribImage);
+        contributorsContainer.appendChild(contribLink);
+    </script>
+</div>
+ <br>
       <button onclick="window.location.href='/index.html'" class="button play">
         Done reading?
       </button>

@@ -2,13 +2,20 @@ var apps = [
     {
       'id': 'customapp',
       'title': 'Add custom app',
-      'image': 'assets/images/add.png'
+      'image': 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBzdHlsZT0iaGVpZ2h0OiAxMDBweDsiPg0KICA8cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0ibm9uZSIvPg0KICA8bGluZSB4MT0iNDAiIHkxPSIxMjgiIHgyPSIyMTYiIHkyPSIxMjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxNiIvPg0KICA8bGluZSB4MT0iMTI4IiB5MT0iNDAiIHgyPSIxMjgiIHkyPSIyMTYiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxNiIvPg0KPC9zdmc+'
     },
     {
       "id": "google",
       "title": "Google",
       "url": "https://www.google.com/?safe=active&ssui=on",
       'image': 'https://img.freepik.com/free-icon/search_318-265146.jpg'
+      
+    },
+       {
+      "id": "wikipedia",
+      "title": "Wikipedia",
+      "url": "https://www.wikipedia.org/",
+      'image': 'https://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia_W_-_SuperTinyIcons.svg'
       
     },
     {
