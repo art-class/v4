@@ -101,7 +101,7 @@ var games = [
   {
     id: 'papasicecream',
     title: 'Papa\'s Scooperia',
-    url: 'https://dynamicruffle.vercel.app/?play=papascoop',
+    url: 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-scooperia.xml',
     image: 'https://play-lh.googleusercontent.com/KpLBHo89bWG3jmuYb_KqDD1rZSY4XzXcHiMLZ1PCv83GMwVMcJluuuXrT32oQGCo51A'
   },
   {
