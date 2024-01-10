@@ -363,7 +363,7 @@ var games = [
   {
     id: 'doodlejump',
     title: 'Doodle Jump',
-    url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/doodle-jump/index.html',
+    url: 'https://doodlejump.io/play/',
     image: 'https://assets-prd.ignimgs.com/2022/03/16/doodlejump-1647405974576.jpg'
   },
   {
@@ -389,6 +389,12 @@ var games = [
     title: 'Rocket League',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/Rocket-League/index.html',
     image: 'https://cdn2.iconfinder.com/data/icons/popular-games-1/50/rocketleague_squircle-512.png'
+  },
+  {
+    id: 'curveball3d',
+    title: 'Curve Ball 3D',
+    url: 'https://slopegame.io/curve-.embed',
+    image: 'https://play-lh.googleusercontent.com/sTHCFQc1HlSFK2jHNsQOabTeKBvgtugFxnSa_uNLWX2euDE7ohRnJhgCDapOZ0gvxlQ'
   },
   {
     id: 'bitlife',
