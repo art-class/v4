@@ -74,12 +74,6 @@ var games = [
     image: 'https://play-lh.googleusercontent.com/gTd127I81O2i2Q6kfCJoN-M0OSWmgsdjB47orUFpLwANW7VZLJYrOxMVt-OpilDXszg=w240-h480-rw'
   },
   {
-    id: 'clickerheroes',
-    title: 'Clicker Heroes',
-    url: 'https://shadowgmes.github.io/gfiles/clicker-heroes/index.html',
-    image: 'https://raw.githubusercontent.com/shadowgmes/shadowgmes.github.io/main/img/clickerheroes.png'
-  },
-  {
     id: 'backrooms',
     title: 'Backrooms',
     description: 'Scary game based on the viral 4Chan post.',
