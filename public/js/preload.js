@@ -21,6 +21,10 @@ async function registerSW() {
     console.log("Registered!")
   })
 
+  await navigator.serviceWorker.register('arc-sw.js').then(() => {
+    console.log("Arc sw registered!")
+  })
+
 }
 
 registerSW()

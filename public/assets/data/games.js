@@ -74,12 +74,6 @@ var games = [
     image: 'https://play-lh.googleusercontent.com/gTd127I81O2i2Q6kfCJoN-M0OSWmgsdjB47orUFpLwANW7VZLJYrOxMVt-OpilDXszg=w240-h480-rw'
   },
   {
-    id: 'clickerheroes',
-    title: 'Clicker Heroes',
-    url: 'https://shadowgmes.github.io/gfiles/clicker-heroes/index.html',
-    image: 'https://raw.githubusercontent.com/shadowgmes/shadowgmes.github.io/main/img/clickerheroes.png'
-  },
-  {
     id: 'backrooms',
     title: 'Backrooms',
     description: 'Scary game based on the viral 4Chan post.',
@@ -101,7 +95,7 @@ var games = [
   {
     id: 'papasicecream',
     title: 'Papa\'s Scooperia',
-    url: 'https://dynamicruffle.vercel.app/?play=papascoop',
+    url: 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-scooperia.xml',
     image: 'https://play-lh.googleusercontent.com/KpLBHo89bWG3jmuYb_KqDD1rZSY4XzXcHiMLZ1PCv83GMwVMcJluuuXrT32oQGCo51A'
   },
   {
@@ -363,7 +357,7 @@ var games = [
   {
     id: 'doodlejump',
     title: 'Doodle Jump',
-    url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/doodle-jump/index.html',
+    url: 'https://doodlejump.io/play/',
     image: 'https://assets-prd.ignimgs.com/2022/03/16/doodlejump-1647405974576.jpg'
   },
   {
@@ -389,6 +383,12 @@ var games = [
     title: 'Rocket League',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/Rocket-League/index.html',
     image: 'https://cdn2.iconfinder.com/data/icons/popular-games-1/50/rocketleague_squircle-512.png'
+  },
+  {
+    id: 'curveball3d',
+    title: 'Curve Ball 3D',
+    url: 'https://slopegame.io/curve-.embed',
+    image: 'https://play-lh.googleusercontent.com/sTHCFQc1HlSFK2jHNsQOabTeKBvgtugFxnSa_uNLWX2euDE7ohRnJhgCDapOZ0gvxlQ'
   },
   {
     id: 'bitlife',
@@ -533,6 +533,12 @@ var games = [
     title: 'Helix Jump',
     url: 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/gertdoro/Toolkit@147a37a734f3e4f155e48dbda25000afdc2970ba/Apps/Helix.xml',
     image: 'https://play-lh.googleusercontent.com/cZHORa1z78dfMsP_nxCkplmHGUx5wfjY0x2jK59GWL7rUL5o6c_KiQ7QL9o4T22qbH8'
+  },
+  {
+    id: 'raccoonretail',
+    title: 'Raccoon Retail',
+    url: 'https://www.coolmathgames.com/0-raccoon-retail/play',
+    image: 'https://play-lh.googleusercontent.com/zI8P-Gej0l8WK9_rRrVJuHQfZqA97ncD1RCN8qdLbmwl0uxPI8o5JLBsnJz5hxLKTYE'
   }
 ]
 games.sort(function (a, b) {

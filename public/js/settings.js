@@ -33,7 +33,7 @@ var tabPresets = {
     },
     default: {
         name: 'Art Class',
-        icon: 'https://v4.artclass.site/assets/images/icon.png'
+        icon: '/assets/images/icon.png'
     }
 }
 
