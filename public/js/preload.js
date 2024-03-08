@@ -40,8 +40,9 @@ document.head.appendChild(fa)
 // Plausible
 // <script defer data-domain="artclass.site" src="https://plausible.artclass.site/js/script.js"></script>
 var plausible = document.createElement('script')
-plausible.src = 'https://analytics.artclass.site/js/script.js'
+plausible.src = '/js/script.js'
 plausible.defer = true
+plausible.dataset.api = "/api/event"
 plausible.dataset.domain = 'artclass.site'
 document.head.appendChild(plausible)
 
