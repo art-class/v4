@@ -195,7 +195,7 @@ var games = [
   {
     id: 'run3',
     title: 'Run 3',
-    url: 'https://assets.3kh0.net/run%203/Run%203.html',
+    url: 'https://coolmathgames.com/0-run-3/play',
     image: 'https://play-lh.googleusercontent.com/A97ygyZMgnoapGfPhWZn9QBMsrskPuPQmJqeEtROZWnbQRfAOZZlhtP-UBWxaKtMI6U',
     description: 'Run 3 is a classic game where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer'
   },
