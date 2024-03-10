@@ -242,13 +242,13 @@ var games = [
   {
     id: 'smashkarts',
     title: 'Smash Karts',
-    url: 'https://assets.3kh0.net/d108460237587095c92fe0968f1595f30cf5a5cc/smashkarts/index.html',
+    url: 'https://assets.3kh0.net/smashkarts/index.html',
     image: 'https://geometry-dash.co/upload/imgs/smash-karts-logo.png'
   },
   {
     id: 'tunnelrush',
     title: 'Tunnel Rush',
-    url: 'https://assets.3kh0.net/e00403015397cb588f42d3a461b5ac9503dd7c2d/tunnel-rush/index.html',
+    url: 'https://assets.3kh0.net/tunnel-rush/index.html',
     image: 'https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg',
   },
   {
