@@ -2,6 +2,18 @@
 
 // UV Service Worker
 
+if (/debug/.test(window.location)) {
+  console.log('Debug mode enabled')
+  var eruda = document.createElement('script')
+  eruda.src = 'https://cdn.jsdelivr.net/npm/eruda'
+  document.head.append(eruda)
+
+  eruda.onload = () => {
+    eruda.init()
+  }
+}
+
+
 const swAllowedHostnames = ['localhost', '127.0.0.1']
 
 async function registerSW() {
