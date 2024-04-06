@@ -74,8 +74,3 @@ function gtag() {
 gtag('js', new Date())
 
 gtag('config', 'G-66ZE075DLD')
-
-var arcScript = document.createElement('script')
-arcScript.src = 'https://arc.io/widget.min.js#mBnG5tq6'
-arcScript.async = true
-document.head.appendChild(arcScript)
