@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="shortcut icon"
-      href="./assets/images/icon.png"
-      type="image/png"
-    />
-    <title>Art Class</title>
 
-    <link rel="stylesheet" href="./css/master.css" />
-    <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
-    <script src="/uv/uv.config.js"></script>
-    <script src="./js/preload.js"></script>
-  </head>
+<head>
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+  <title>Art Class</title>
 
-  <body>
-    <nav>
-      <div class="logo">
-        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
-        <h1>Art Class</h1>
-      </div>
-
-      <p id="time"></p>
-
-      <div class="navitems">
-        <div class="navitem"><a href="/">Home</a></div>
-        <div class="navitem"><a href="/gs.html">Games</a></div>
-        <div class="navitem"><a selected href="/apps.html">Apps</a></div>
-        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-        <div class="navitem"><a href="/search.html">Search</a></div>
-      </div>
-    </nav>
-
-    <h1>Apps</h1>
-    <input
-      type="text"
-      class="input"
-      id="search"
-      placeholder="Search Apps"
-      style="text-align: center"
-    />
-    <div class="cardgroup" id="appcards"></div>
-
-    <button class="secondary" onclick="clearcustomapps()">
-      Clear custom apps
-    </button>
-  </body>
-
-  <script src="./js/index.js"></script>
-  <script src="./assets/data/apps.js"></script>
-  <script src="./js/apps.js"></script>
+  <link rel="stylesheet" href="./css/master.css" />
+  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="./js/preload.js"></script>
 
   <script>
-    const searchInput = document.querySelector('#search')
-    const items = document.querySelectorAll('.card')
-
-    searchInput.addEventListener('input', function (event) {
-      const query = event.target.value.toLowerCase()
-
-      items.forEach(function (item) {
-        const title = item.querySelector('.card h4').textContent.toLowerCase()
-
-        if (title.includes(query)) {
-          item.style.display = 'block'
-        } else {
-          item.style.display = 'none'
-        }
-      })
-    })
+    atOptions = {
+      'key': 'fc0ad22bd8c1ea22c8c08df927121e8f',
+      'format': 'iframe',
+      'height': 60,
+      'width': 468,
+      'params': {}
+    };
   </script>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+      <h1>Art Class</h1>
+    </div>
+
+    <p id="time"></p>
+
+    <div class="navitems">
+      <div class="navitem"><a href="/">Home</a></div>
+      <div class="navitem"><a href="/gs.html">Games</a></div>
+      <div class="navitem"><a selected href="/apps.html">Apps</a></div>
+      <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+      <div class="navitem"><a href="/search.html">Search</a></div>
+    </div>
+  </nav>
+
+  <h1>Apps</h1>
+  <input type="text" class="input" id="search" placeholder="Search Apps" style="text-align: center" />
+  <div class="ad">
+    <script type="text/javascript"
+      src="//www.topcreativeformat.com/fc0ad22bd8c1ea22c8c08df927121e8f/invoke.js"></script>
+  </div>
+  <div class="cardgroup" id="appcards"></div>
+
+  <button class="secondary" onclick="clearcustomapps()">
+    Clear custom apps
+  </button>
+</body>
+
+<script src="./js/index.js"></script>
+<script src="./assets/data/apps.js"></script>
+<script src="./js/apps.js"></script>
+
+<script>
+  const searchInput = document.querySelector('#search')
+  const items = document.querySelectorAll('.card')
+
+  searchInput.addEventListener('input', function (event) {
+    const query = event.target.value.toLowerCase()
+
+    items.forEach(function (item) {
+      const title = item.querySelector('.card h4').textContent.toLowerCase()
+
+      if (title.includes(query)) {
+        item.style.display = 'block'
+      } else {
+        item.style.display = 'none'
+      }
+    })
+  })
+</script>
+
 </html>

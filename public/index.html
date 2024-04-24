@@ -1,74 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="shortcut icon"
-      href="./assets/images/icon.png"
-      type="image/png"
-    />
-    <title>Art Class</title>
 
-    <link rel="stylesheet" href="./css/master.css" />
+<head>
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+  <title>Art Class</title>
 
-    <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
-    <script src="/uv/uv.config.js"></script>
-    <script src="./js/preload.js"></script>
-  </head>
+  <link rel="stylesheet" href="./css/master.css" />
 
-  <body theme="main">
-    <nav>
-      <div class="logo">
-        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
-        <h1>Art Class</h1>
-      </div>
-
-      <p id="time"></p>
-
-      <div class="navitems">
-        <div class="navitem"><a selected href="/">Home</a></div>
-        <div class="navitem"><a href="/gs.html">Games</a></div>
-        <div class="navitem"><a href="/apps.html">Apps</a></div>
-        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-        <div class="navitem"><a href="/search.html">Search</a></div>
-      </div>
-    </nav>
-
-    <div class="center-container">
-      <h1>Welcome to <span>Art Class</span></h1>
-      <p id="splash"></p>
-      <br />
-      <button
-        onclick="window.location.href='/search.html?q=https://discord.gg/tMaHQ2dyk5'"
-        class="button play"
-      >
-        Join our Discord
-      </button>
-      <button onclick="launchab()" id="launchab" class="button play">
-        Launch in about:blank
-      </button>
-    </div>
-
-    <div class="links">
-      <div class="left">
-        <a href="https://github.com/art-class/v4">GitHub</a>
-        <a href="https://discord.gg/tMaHQ2dyk5">Discord</a>
-      </div>
-
-      <div class="right">
-        <a href="./settings.html">Settings</a>
-        <a href="./about.html">About</a>
-      </div>
-    </div>
-  </body>
+  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="./js/preload.js"></script>
 
   <script>
-    fetch('./assets/data/splash.json')
-      .then((res) => res.json())
-      .then((data) => {
-        document.querySelector('#splash').innerHTML =
-          data[Math.floor(Math.random() * data.length)]
-      })
+    atOptions = {
+      'key': 'fc0ad22bd8c1ea22c8c08df927121e8f',
+      'format': 'iframe',
+      'height': 60,
+      'width': 468,
+      'params': {}
+    };
   </script>
+</head>
 
-  <script src="./js/index.js"></script>
+<body theme="main">
+  <nav>
+    <div class="logo">
+      <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+      <h1>Art Class</h1>
+    </div>
+
+    <p id="time"></p>
+
+    <div class="navitems">
+      <div class="navitem"><a selected href="/">Home</a></div>
+      <div class="navitem"><a href="/gs.html">Games</a></div>
+      <div class="navitem"><a href="/apps.html">Apps</a></div>
+      <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+      <div class="navitem"><a href="/search.html">Search</a></div>
+    </div>
+  </nav>
+
+  <div class="center-container">
+    <h1>Welcome to <span>Art Class</span></h1>
+    <p id="splash"></p>
+    <br />
+    <button onclick="window.location.href='/search.html?q=https://discord.gg/tMaHQ2dyk5'" class="button play">
+      Join our Discord
+    </button>
+    <button onclick="launchab()" id="launchab" class="button play">
+      Launch in about:blank
+    </button>
+    <br />
+      <div class="ad">
+        <script type="text/javascript"
+      src="//www.topcreativeformat.com/fc0ad22bd8c1ea22c8c08df927121e8f/invoke.js"></script>
+      </div>
+  </div>
+
+  <div class="links">
+    <div class="left">
+      <a href="https://github.com/art-class/v4">GitHub</a>
+      <a href="https://discord.gg/tMaHQ2dyk5">Discord</a>
+    </div>
+
+    <div class="right">
+      <a href="./settings.html">Settings</a>
+      <a href="./about.html">About</a>
+    </div>
+  </div>
+</body>
+
+<script>
+  fetch('./assets/data/splash.json')
+    .then((res) => res.json())
+    .then((data) => {
+      document.querySelector('#splash').innerHTML =
+        data[Math.floor(Math.random() * data.length)]
+    })
+</script>
+
+<script src="./js/index.js"></script>
+
 </html>

@@ -1,62 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
-    <title>Art Class</title>
 
-    <link rel="stylesheet" href="./css/master.css" />
+<head>
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+  <title>Art Class</title>
 
-    <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
-    <script src="/uv/uv.config.js"></script>
-    <script src="./js/preload.js"></script>
-  </head>
+  <link rel="stylesheet" href="./css/master.css" />
 
-  <body theme="main">
-    <nav>
-      <div class="logo">
-        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
-        <h1>Art Class</h1>
+  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="./js/preload.js"></script>
+
+  <script type="text/javascript">
+    atOptions = {
+      'key': '8d57283b953b8b546d6a04d4deac19dc',
+      'format': 'iframe',
+      'height': 250,
+      'width': 300,
+      'params': {}
+    };
+  </script>
+</head>
+
+<body theme="main">
+  <nav>
+    <div class="logo">
+      <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+      <h1>Art Class</h1>
+    </div>
+
+    <p id="time"></p>
+
+    <div class="navitems">
+      <div class="navitem"><a href="/">Home</a></div>
+      <div class="navitem"><a href="/gs.html">Games</a></div>
+      <div class="navitem"><a href="/apps.html">Apps</a></div>
+      <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+      <div class="navitem"><a href="/search.html">Search</a></div>
+    </div>
+  </nav>
+
+  <div class="gamecontainer">
+    <iframe allowfullscreen frameborder="0" id="frame"></iframe>
+    <div id="gameInfo">
+      <div class="gameHeader">
+        <img id="gameImage" alt="icon" />
+        <h3 id="gameTitle"></h3>
       </div>
+      <p id="gameDescription"></p>
 
-      <p id="time"></p>
+      <script type="text/javascript"
+        src="//www.topcreativeformat.com/8d57283b953b8b546d6a04d4deac19dc/invoke.js"></script>
 
-      <div class="navitems">
-        <div class="navitem"><a href="/">Home</a></div>
-        <div class="navitem"><a href="/gs.html">Games</a></div>
-        <div class="navitem"><a href="/apps.html">Apps</a></div>
-        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-        <div class="navitem"><a href="/search.html">Search</a></div>
-      </div>
-    </nav>
 
-    <div class="gamecontainer">
-      <iframe allowfullscreen frameborder="0" id="frame"></iframe>
-      <div id="gameInfo">
-        <div class="gameHeader">
-          <img id="gameImage" alt="icon" />
-          <h3 id="gameTitle"></h3>
-        </div>
-        <p id="gameDescription"></p>
-
-        <div id="menubtns">
-          <a href="./gs.html">
-            <button onclick="window.location.href = '/'">
-              <i class="fas fa-arrow-left"></i>
-            </button>
-          </a>
-          <button onclick="document.querySelector('iframe').requestFullscreen()">
-            <i class="fas fa-expand"></i>
+      <div id="menubtns">
+        <a href="./gs.html">
+          <button onclick="window.location.href = '/'">
+            <i class="fas fa-arrow-left"></i>
           </button>
-          <button onclick="favorite()">
-            <i class="favorited far fa-star"></i>
-          </button>
-        </div>
+        </a>
+        <button onclick="document.querySelector('iframe').requestFullscreen()">
+          <i class="fas fa-expand"></i>
+        </button>
+        <button onclick="favorite()">
+          <i class="favorited far fa-star"></i>
+        </button>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 
-  <script src="./js/index.js"></script>
-  <script src="./assets/data/games.js"></script>
-  <script src="./assets/data/apps.js"></script>
-  <script src="./js/load.js"></script>
+<script src="./js/index.js"></script>
+<script src="./assets/data/games.js"></script>
+<script src="./assets/data/apps.js"></script>
+<script src="./js/load.js"></script>
+
 </html>
