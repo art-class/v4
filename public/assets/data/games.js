@@ -546,6 +546,12 @@ var games = [
     url: 'https://eaglercraft.com/mc/1.8.8',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlMj9jg_k4NvGgTfxav9xDuiy2BGJ7KzBMsQ&s'
   },
+      {
+    id: 'voxiom',
+    title: 'Voxiom.io',
+    url: 'https://voxiom.io',
+    image: 'https://files.gamezhero.com/game/89d/c92/89dc92bc39bbf286/images/240/voxiomio.jpg'
+  }
 ]
 games.sort(function (a, b) {
   return a.title.localeCompare(b.title);
