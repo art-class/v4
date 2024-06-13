@@ -116,6 +116,34 @@ var apps = [
       'url': 'https://cattn.github.io/gba',
       "image": "https://cattn.github.io/gba/pwa/apple-icon-180.png",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
+    },   
+    {
+      'id': 'scratch',
+      'title': 'Scratch',
+      'url': 'https://scratch.mit.edu',
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtkWi9cs_kkA_SWxosg2z59Ha4PNy0cAyrA&s",
+      "description": "A Block Based Programming Language Community with a ton of Online Games"
+    },
+        {
+      'id': 'itch.io',
+      'title': 'Itch.io',
+      'url': 'https://itch.io',
+      "image": "https://www.wargamer.com/wp-content/sites/wargamer/2022/02/Itchio-condemns-NFTs-Itchio-logo.jpg",
+      "description": "A Place Where You Can Download Games or Play Games Online"
+    },
+            {
+      'id': 'instagram',
+      'title': 'Instagram',
+      'url': 'https://instagram.com',
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROlf2GkEtPk1w49L9mw1r1ERJRea7lAPMm6Q&s",
+      "description": "Just Instagram"
+    },
+                {
+      'id': 'chatgpt',
+      'title': 'ChatGPT',
+      'url': 'https://chat.openai.com',
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkjcFoADXGfO6r-rGC_LSR-dw_YmwoYjgjuQ&s",
+      "description": "A AI ChatBot that can do stuff for you"
     }
   ]
   
