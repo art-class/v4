@@ -77,6 +77,6 @@ gtag('config', 'G-66ZE075DLD')
 // Ads
 // <script type='text/javascript' src='//pl22708848.profitablegatecpm.com/4e/d6/be/4ed6beda21708e4b8f45fca957964a1f.js'></script>
 var ads = document.createElement("script")
-ads.src = "//pl22708848.profitablegatecpm.com/4e/d6/be/4ed6beda21708e4b8f45fca957964a1f.js"
+ads.src = "//strodeintended.com/4e/d6/be/4ed6beda21708e4b8f45fca957964a1f.js"
 ads.type = "text/javascript"
 document.head.appendChild(ads)
