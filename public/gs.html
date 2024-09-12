@@ -1,80 +1,75 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+    <title>Art Class</title>
 
-<head>
-  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
-  <title>Art Class</title>
+    <link rel="stylesheet" href="./css/master.css" />
+    <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+    <script src="/uv/uv.config.js"></script>
+    <script src="./js/preload.js"></script>
 
-  <link rel="stylesheet" href="./css/master.css" />
-  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
-  <script src="/uv/uv.config.js"></script>
-  <script src="./js/preload.js"></script>
+    <script type="text/javascript">
+      atOptions = {
+        key: 'fc0ad22bd8c1ea22c8c08df927121e8f',
+        format: 'iframe',
+        height: 60,
+        width: 468,
+        params: {}
+      }
+    </script>
+  </head>
+
+  <body theme="main">
+    <nav>
+      <div class="logo">
+        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+        <h1>Art Class</h1>
+      </div>
+
+      <p id="time"></p>
+
+      <div class="navitems">
+        <div class="navitem"><a href="/">Home</a></div>
+        <div class="navitem"><a selected href="/gs.html">Games</a></div>
+        <div class="navitem"><a href="/apps.html">Apps</a></div>
+        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+        <div class="navitem"><a href="/search.html">Search</a></div>
+      </div>
+    </nav>
+
+    <h1>Games</h1>
+    <input type="text" class="input" id="search" placeholder="Search Games" style="text-align: center" />
+
+    <div class="ad">
+      <script async="async" data-cfasync="false" src="//strodeintended.com/4f6e85f4c635684096b4338b181d1962/invoke.js"></script>
+    </div>
+
+    <div class="cardgroup" id="favoritedgames"></div>
+    <div class="cardgroup" id="gamecards"></div>
+    <button class="secondary" onclick="clearcustomgames()">Clear custom games</button>
+  </body>
+
+  <script src="./js/index.js"></script>
+  <script src="./assets/data/games.js"></script>
+  <script src="./js/games.js"></script>
 
   <script>
-    atOptions = {
-      'key': 'fc0ad22bd8c1ea22c8c08df927121e8f',
-      'format': 'iframe',
-      'height': 60,
-      'width': 468,
-      'params': {}
-    };
-  </script>
-</head>
+    const searchInput = document.querySelector('#search')
+    const items = document.querySelectorAll('.card')
 
-<body theme="main">
-  <nav>
-    <div class="logo">
-      <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
-      <h1>Art Class</h1>
-    </div>
+    searchInput.addEventListener('input', function (event) {
+      const query = event.target.value.toLowerCase()
 
-    <p id="time"></p>
+      items.forEach(function (item) {
+        const title = item.querySelector('.card h4').textContent.toLowerCase()
 
-    <div class="navitems">
-      <div class="navitem"><a href="/">Home</a></div>
-      <div class="navitem"><a selected href="/gs.html">Games</a></div>
-      <div class="navitem"><a href="/apps.html">Apps</a></div>
-      <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-      <div class="navitem"><a href="/search.html">Search</a></div>
-    </div>
-  </nav>
-
-  <h1>Games</h1>
-  <input type="text" class="input" id="search" placeholder="Search Games" style="text-align: center" />
-
-  <div class="ad">
-    <!-- <script type="text/javascript"
-      src="//www.topcreativeformat.com/fc0ad22bd8c1ea22c8c08df927121e8f/invoke.js"></script> -->
-  </div>
-
-  <div class="cardgroup" id="favoritedgames"></div>
-  <div class="cardgroup" id="gamecards"></div>
-  <button class="secondary" onclick="clearcustomgames()">
-    Clear custom games
-  </button>
-</body>
-
-<script src="./js/index.js"></script>
-<script src="./assets/data/games.js"></script>
-<script src="./js/games.js"></script>
-
-<script>
-  const searchInput = document.querySelector('#search')
-  const items = document.querySelectorAll('.card')
-
-  searchInput.addEventListener('input', function (event) {
-    const query = event.target.value.toLowerCase()
-
-    items.forEach(function (item) {
-      const title = item.querySelector('.card h4').textContent.toLowerCase()
-
-      if (title.includes(query)) {
-        item.style.display = 'block'
-      } else {
-        item.style.display = 'none'
-      }
+        if (title.includes(query)) {
+          item.style.display = 'block'
+        } else {
+          item.style.display = 'none'
+        }
+      })
     })
-  })
-</script>
-
+  </script>
 </html>
