@@ -40,19 +40,6 @@ fa.rel = 'stylesheet'
 fa.type = 'text/css'
 document.head.appendChild(fa)
 
-// Posthog
-
-// !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-// posthog.init('phc_X8Ghw5Xz5J9q6eoi0Uu3wkBGkOLpxRu0tl88G7mg5Y8',{api_host:'https://analytics.artclass.site'})
-
-// Umami Analytics
-// <script defer src="https://analytics.proudparrot2.tech/script.js" data-website-id="57d886e3-aca2-4240-9309-ab8148855c93"></script>
-var analytics = document.createElement("script")
-analytics.dataset.websiteId = "57d886e3-aca2-4240-9309-ab8148855c93"
-analytics.src = "https://analytics.proudparrot2.tech/script.js"
-analytics.defer = true
-document.head.appendChild(analytics)
-
 // CSS Scripts
 
 const hover = document.createElement('link')
@@ -73,3 +60,9 @@ function gtag() {
 gtag('js', new Date())
 
 gtag('config', 'G-66ZE075DLD')
+
+// Ads
+var ads = document.createElement("script")
+ads.src = "//strodeintended.com/4e/d6/be/4ed6beda21708e4b8f45fca957964a1f.js"
+ads.type = "text/javascript"
+document.head.appendChild(ads)
