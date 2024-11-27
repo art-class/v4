@@ -19,7 +19,7 @@ var games = [
   {
     id: 'rocketleague',
     title: 'Rocket League',
-    url: 'https://cdn.githubraw.com/carbonsystems-dev/gamevault/main/Rocket-League/index.html',
+    url: 'https://glcdn.githack.com/kaioxdev/legacy-assets/-/raw/main/Rocket-League/index.html',
     image: 'https://www.softgozar.com/Image/Softwares/Thumbnail/Rocket_League_Anniversary_SoftGozar.com.png'
   },
   {
@@ -121,7 +121,7 @@ var games = [
     id: 'plantsvszombies',
     title: 'Plants Versus Zombies 1.0',
     description: 'Plants Versus Zombies 1.0 is a tower defense video game where players strategically plant a variety of plants to fend off waves of zombie invaders.',
-    url: 'https://rawcdn.githack.com/carbonsystems-dev/gamevault/e5a7f73412c800c5f1258c830dc4052cedf27bfa/plants%20vs%20zombies%201/plants%20vs%20zombies.html',
+    url: 'https://glcdn.githack.com/kaioxdev/legacy-assets/-/raw/main/plants%20vs%20zombies%201/plants%20vs%20zombies.html',
     image: 'http://cm1.narvii.com/6715/5bef9754b89ffbf36e5afb2c4dac9860b9614987_00.jpg'
   },
   {
@@ -202,14 +202,14 @@ var games = [
   {
     id: 'run1',
     title: 'Run 1',
-    url: 'https://cdn.githubraw.com/carbonsystems-dev/gamevault/main/run/index.html',
+    url: 'https://glcdn.githack.com/kaioxdev/legacy-assets/-/raw/main/run/index.html',
     image: 'https://trefoilkingdom.com/uploads/games/21624/Run-1.jpg',
     description: 'Run 1 is a classic game where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer'
   },
   {
     id: 'run2',
     title: 'Run 2',
-    url: 'https://cdn.githubraw.com/carbonsystems-dev/gamevault/main/Run%202/index.html',
+    url: 'https://glcdn.githack.com/kaioxdev/legacy-assets/-/raw/main/Run%202/index.html',
     image: 'https://i.pinimg.com/280x280_RS/b6/2f/e8/b62fe8c6a9ceb9fd7e5257ad25f6897d.jpg',
     description: 'Run 2 is a classic game where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer'
   },
