@@ -60,17 +60,3 @@ function gtag() {
 gtag('js', new Date())
 
 gtag('config', 'G-66ZE075DLD')
-
-// Fathom
-// <script src="https://cdn.usefathom.com/script.js" data-site="FNWBNQCO" defer></script>
-var fathom = document.createElement("script")
-fathom.src = "https://cdn.usefathom.com/script.js"
-fathom.dataset.set = "FNWBNQCO"
-fathom.defer = true
-document.head.appendChild(fathom)
-
-// Ads
-var ads = document.createElement("script")
-ads.src = "//strodeintended.com/4e/d6/be/4ed6beda21708e4b8f45fca957964a1f.js"
-ads.type = "text/javascript"
-document.head.appendChild(ads)
