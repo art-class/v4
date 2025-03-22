@@ -1,3 +1,6 @@
+# ⚠️ A notice about Art Class's future
+Art Class has officially shut down and stopped development as of March 2nd, 2025. Thank you all for being apart of this. Feel free to fork this and host it yourself, but this repo will no longer be maintained.
+
 <div align="center">
   <img src="public/assets/images/icon.png" />
   <h1>Art Class v4</h1>
